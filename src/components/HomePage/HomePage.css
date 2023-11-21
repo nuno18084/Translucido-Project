@@ -1,0 +1,6 @@
+.image-slider-container {
+  background-image: url("../../Assets/HomePage/LandingAssets/LandingPageImages/ImagesBackground.png");
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
