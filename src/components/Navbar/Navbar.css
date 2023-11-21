@@ -1,14 +1,13 @@
-/* .navbar-menu-logo-container {
-  justify-content: space-between;
-  align-items: center;
-} */
+.navbar-menu-logo-container {
+  height: 90px;
+}
 
 .logo {
   position: fixed;
   top: 30px;
   left: 36px;
   z-index: -1;
-  width: 35px;
+  width: 40px;
   height: 41px;
 }
 
