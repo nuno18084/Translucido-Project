@@ -1,3 +1,17 @@
+/* .navbar-menu-logo-container {
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.logo {
+  position: fixed;
+  top: 30px;
+  left: 36px;
+  z-index: -1;
+  width: 35px;
+  height: 41px;
+}
+
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
