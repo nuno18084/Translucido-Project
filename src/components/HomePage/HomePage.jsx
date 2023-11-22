@@ -7,6 +7,7 @@ import Image2 from "../../Assets/HomePage/LandingAssets/LandingPageImages/difere
 import Image3 from "../../Assets/HomePage/LandingAssets/LandingPageImages/perguntar se esta tudo bem e t er tempo para ouvir um não.png";
 import Image4 from "../../Assets/HomePage/LandingAssets/LandingPageImages/permitir trabalho híbrido.jpg";
 import backgroundRoller from "../../Assets/HomePage/LandingAssets/LandingPageImages/ImagesBackground.png";
+import TypedPhrase from "./Typed/Typed";
 
 const HomePage = () => {
   const images = [Image1, Image2, Image3, Image4];
@@ -22,7 +23,12 @@ const HomePage = () => {
         />
       </div>
       <div className="home-page-phrase">
-        <h1 className="slider-and-phrase-h1">Empatia é</h1>
+        <div>
+          <h1 className="slider-and-phrase-h1">Empatia é</h1>
+        </div>
+      </div>
+      <div className="typed-phrase-h1">
+        <TypedPhrase />
       </div>
     </div>
   );

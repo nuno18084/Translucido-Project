@@ -2,6 +2,7 @@
   position: relative;
   height: 300px;
   overflow: hidden;
+  margin-bottom: 45px;
 }
 
 .images-background {
@@ -18,13 +19,13 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 85px;
+  /* gap: 10px; */
 }
 
 .home-page-phrase {
   background-image: url(../../Assets/HomePage/LandingAssets/EmpathyPhrase/EmpathyBackground.png);
   background-size: 219px;
-  background-position: left;
+  background-position: left top;
   background-repeat: no-repeat !important;
 }
 
@@ -33,6 +34,15 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 60px;
-  padding-left: 3%;
+  padding-left: 5%;
+  padding-right: 3%;
+}
+
+.typed-phrase-h1 {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  padding-left: 5%;
   padding-right: 3%;
 }
