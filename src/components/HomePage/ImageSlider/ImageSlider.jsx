@@ -26,6 +26,7 @@ const ImageSlider = ({ images, transitionDuration = 4000 }) => {
           }`}
           style={{
             transition: `opacity ${transitionDuration / 2}ms ease-in-out`,
+            transform: "rotate(3.46deg)",
           }}
         />
       ))}

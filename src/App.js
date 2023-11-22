@@ -13,7 +13,7 @@ function App() {
     <div className="App" id="outer-container">
       <Router>
         <Navbar pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
-        <div id="page-wrap"></div>
+        {/* <div id="page-wrap"></div> */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/metodologias" element={<MethodologiesPage />} />

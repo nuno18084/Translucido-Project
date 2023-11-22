@@ -4,11 +4,16 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #1c478f;
+:root {
+  --white-color: #ffffff;
 }
 
-#page-wrap {
+body {
+  background-color: #1c478f;
+  font-family: Poppins;
+}
+
+/* #page-wrap {
   padding-bottom: 10px;
   padding-top: 10px;
-}
+} */

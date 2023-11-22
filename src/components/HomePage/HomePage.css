@@ -1,6 +1,38 @@
 .image-slider-container {
-  background-image: url("../../Assets/HomePage/LandingAssets/LandingPageImages/ImagesBackground.png");
   position: relative;
-  width: 100%;
+  height: 300px;
   overflow: hidden;
+}
+
+.images-background {
+  width: 100%;
+  height: 90%;
+  position: relative;
+  transform: rotate(3.46deg);
+  transform: translateY(-90%);
+  z-index: -20;
+  padding-bottom: auto;
+}
+
+.slider-and-phrase {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 85px;
+}
+
+.home-page-phrase {
+  background-image: url(../../Assets/HomePage/LandingAssets/EmpathyPhrase/EmpathyBackground.png);
+  background-size: 219px;
+  background-position: left;
+  background-repeat: no-repeat !important;
+}
+
+.slider-and-phrase-h1 {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 60px;
+  padding-left: 3%;
+  padding-right: 3%;
 }
