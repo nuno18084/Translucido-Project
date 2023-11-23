@@ -8,6 +8,10 @@ import Image3 from "../../Assets/HomePage/LandingAssets/LandingPageImages/pergun
 import Image4 from "../../Assets/HomePage/LandingAssets/LandingPageImages/permitir trabalho híbrido.jpg";
 import backgroundRoller from "../../Assets/HomePage/LandingAssets/LandingPageImages/ImagesBackground.png";
 import TypedPhrase from "./Typed/Typed";
+import ScrollDown from "../../Assets/HomePage/LandingAssets/ScrollDown/ScrollDownBtn.png";
+import Rectangle from "../../Assets/HomePage/LandingAssets/WhoWeAreFigs/RectangleLeft.png";
+import Eclipse from "../../Assets/HomePage/LandingAssets/WhoWeAreFigs/EllipseRight.png";
+import WhoWeAreSection from "./WhoWeAreSection/WhoWeAreSection";
 
 const HomePage = () => {
   const images = [Image1, Image2, Image3, Image4];
@@ -29,6 +33,30 @@ const HomePage = () => {
       </div>
       <div className="typed-phrase-h1">
         <TypedPhrase />
+      </div>
+      <div>
+        <img src={ScrollDown} alt="scroll-down" className="scroll-down" />
+      </div>
+      <div>
+        <div>
+          <img
+            src={Rectangle}
+            alt="rectangle"
+            className="rectangle-eclise-toggle"
+          />
+        </div>
+
+        <div>
+          <WhoWeAreSection />
+        </div>
+
+        <div>
+          <img
+            src={Eclipse}
+            alt="eclipse"
+            className="rectangle-eclise-toggle"
+          />
+        </div>
       </div>
     </div>
   );

@@ -45,4 +45,15 @@
   line-height: 40px;
   padding-left: 5%;
   padding-right: 3%;
+  margin-bottom: 85px;
+}
+
+.scroll-down {
+  display: none;
+  width: 24px;
+  height: 40px;
+}
+
+.rectangle-eclise-toggle {
+  display: none;
 }

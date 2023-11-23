@@ -26,7 +26,10 @@ function TypedPhrase() {
   }, []);
 
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={{ display: "inline-block", height: "3em", overflow: "hidden" }}
+    >
       <span ref={el} />
     </div>
   );
