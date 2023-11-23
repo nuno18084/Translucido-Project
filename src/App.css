@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #1c478f;
+  background-color: var(--main-blue);
   font-family: Poppins;
 }
 

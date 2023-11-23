@@ -12,6 +12,7 @@ import ScrollDown from "../../Assets/HomePage/LandingAssets/ScrollDown/ScrollDow
 import Rectangle from "../../Assets/HomePage/LandingAssets/WhoWeAreFigs/RectangleLeft.png";
 import Eclipse from "../../Assets/HomePage/LandingAssets/WhoWeAreFigs/EllipseRight.png";
 import WhoWeAreSection from "./WhoWeAreSection/WhoWeAreSection";
+import MethodologiesSection from "./MethodologiesSection/MethodologiesSection";
 
 const HomePage = () => {
   const images = [Image1, Image2, Image3, Image4];
@@ -45,11 +46,9 @@ const HomePage = () => {
             className="rectangle-eclise-toggle"
           />
         </div>
-
         <div>
           <WhoWeAreSection />
         </div>
-
         <div>
           <img
             src={Eclipse}
@@ -57,6 +56,9 @@ const HomePage = () => {
             className="rectangle-eclise-toggle"
           />
         </div>
+      </div>
+      <div>
+        <MethodologiesSection />
       </div>
     </div>
   );
