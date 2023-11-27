@@ -7,6 +7,7 @@ import MethodologiesPage from "./components/MethodologiesPage/MethodologiesPage.
 import SolutionsPage from "./components/SolutionsPage/SolutionsPage.jsx";
 import WhoWeArePage from "./components/WhoWeArePage/WhoWeArePage.jsx";
 import FormPage from "./components/FormPage/FormPage.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/solucoes" element={<SolutionsPage />} />
           <Route path="/agendar" element={<FormPage />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

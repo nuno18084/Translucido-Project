@@ -1,0 +1,9 @@
+.footer-main-container {
+  background-image: url(../../Assets/FooterAssets/FooterBackground/FooterBackground.png);
+  background-repeat: no-repeat;
+  height: 191px;
+  position: static;
+  bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
