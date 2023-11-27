@@ -57,6 +57,7 @@ body {
   justify-content: center;
   flex-direction: column;
   margin-bottom: 50px;
+  padding-top: 50px;
 }
 
 .methodologies-main-section h1 {
@@ -67,4 +68,10 @@ body {
   border-bottom: 2px solid var(--white-color);
   width: 280px;
   text-align: center;
+}
+
+.methodologies-container {
+  background-image: url(../../../Assets/HomePage/MethodologiesAssets/MethodologiesBackground/MethodologiesBackground.png);
+  margin-bottom: 100px;
+  height: 645px;
 }

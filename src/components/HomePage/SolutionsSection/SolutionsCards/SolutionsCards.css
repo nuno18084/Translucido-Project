@@ -1,0 +1,61 @@
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  height: fit-content;
+  margin-bottom: 50px;
+}
+
+.card-container {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 297px;
+  background-color: white;
+  height: fit-content;
+  padding: 25px;
+  /* gap: 50px; */
+}
+
+.card-container h3 {
+  width: fit-content;
+  height: fit-content;
+  color: #202020;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 14px;
+  margin-bottom: 15px;
+}
+
+.card-container h5 {
+  width: fit-content;
+  height: 14px;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 18px;
+  margin-bottom: 40px;
+  color: #787878;
+}
+
+.card-container p {
+  width: fit-content;
+  /* height: 17px; */
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16.5px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #555555;
+  height: fit-content;
+  margin-bottom: 30px;
+}
+
+.icon {
+  background-image: url(../../../../Assets/HomePage/SolutionsAssets/SolutionsIconsBackground.png);
+  width: 40px;
+  height: 40px;
+  padding: 15%;
+  margin-bottom: 25px;
+}

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -42,7 +43,7 @@ export default function App() {
   };
 
   return (
-    <>
+    <div className="methodologies-container">
       <div className="methodologies-main-section">
         <h1>Metedologias</h1>
       </div>
@@ -65,6 +66,6 @@ export default function App() {
         <SwiperSlide>Slide 3</SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }

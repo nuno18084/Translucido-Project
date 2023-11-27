@@ -13,6 +13,7 @@ import Rectangle from "../../Assets/HomePage/LandingAssets/WhoWeAreFigs/Rectangl
 import Eclipse from "../../Assets/HomePage/LandingAssets/WhoWeAreFigs/EllipseRight.png";
 import WhoWeAreSection from "./WhoWeAreSection/WhoWeAreSection";
 import MethodologiesSection from "./MethodologiesSection/MethodologiesSection";
+import SolutionsSection from "./SolutionsSection/SolutionsSection";
 
 const HomePage = () => {
   const images = [Image1, Image2, Image3, Image4];
@@ -59,6 +60,9 @@ const HomePage = () => {
       </div>
       <div>
         <MethodologiesSection />
+      </div>
+      <div>
+        <SolutionsSection />
       </div>
     </div>
   );
