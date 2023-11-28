@@ -10,7 +10,7 @@
 
 .card-container {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   flex-direction: column;
   width: 297px;
   background-color: white;

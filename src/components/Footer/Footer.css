@@ -5,5 +5,91 @@
   position: static;
   bottom: 0;
   margin-bottom: 0;
-  padding-bottom: 0;
+  padding-bottom: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.footer-arrow {
+  display: none;
+}
+
+.footer-logo-container {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  padding-top: 80px;
+  margin-bottom: 40px;
+}
+
+.footer-logo-container img {
+  margin-bottom: 20px;
+}
+
+.footer-address {
+  margin-bottom: 20px;
+}
+
+.footer-main-container p {
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 10px;
+  text-align: left;
+}
+
+.footer-logo {
+  width: 200px;
+}
+
+.footer-mail-number-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer-pages-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.footer-pages-section h5 {
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  width: 200px;
+}
+
+.footer-pages-section p {
+  color: lightgray;
+  font-weight: 400;
+  font-size: 10px;
+  text-align: left;
+}
+
+.footer-pages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.social-media-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-icon {
+  width: 40px;
+  padding-bottom: 50px;
 }
