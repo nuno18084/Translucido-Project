@@ -4,6 +4,7 @@ import FooterArrow from "../../Assets/FooterAssets/FooterArrow.png";
 import FooterLogo from "../../Assets/LogoAssets/FooterLogo.png";
 import insta from "../../Assets/FooterAssets/Instagram.png";
 import linkedin from "../../Assets/FooterAssets/LinkedIn.png";
+// import { Link } from "react-router-dom";
 
 const Footer = () => {
   const phoneNumber = "+351 913 143 178";
@@ -40,7 +41,13 @@ const Footer = () => {
           <img src={FooterArrow} alt="footer-arrow" className="footer-arrow" />
         </div>
         <div className="footer-logo-container">
-          <img className="footer-logo" src={FooterLogo} alt="footer-logo" />
+          <a
+            href="/"
+            onClick={handleLinkClick}
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <img className="footer-logo" src={FooterLogo} alt="footer-logo" />
+          </a>
           <p className="footer-address">Lisboa, Portugal</p>
           <div className="footer-mail-number-section">
             <div>
