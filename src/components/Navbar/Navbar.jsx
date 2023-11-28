@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { slide as Menu } from "react-burger-menu";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import NavbarCross from "../../Assets/NavbarAssets/NavbarCross.png";
 import BurgerMenu from "../../Assets/NavbarAssets/HamburguerMenu.png";
 import Logo from "../../Assets/LogoAssets/MainLogo.png";
@@ -9,37 +9,107 @@ import "./Navbar.css";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
-  // const history = useHistory();
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
 
-  // const closeMenu = (path) => {
-  //   history.push(path);
-  // };
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
+  const handleStateChange = (state) => {
+    setMenuOpen(state.isOpen);
+  };
+
+  const handleLinkClick = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  const checkScroll = () => {
+    const offset = window.scrollY;
+
+    if (offset > 50) {
+      setIsSticky(true);
+    } else {
+      setIsSticky(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", checkScroll);
+
+    // Cleanup the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", checkScroll);
+    };
+  }, []);
 
   return (
-    <div className="navbar-menu-logo-container">
+    <div className={`navbar-menu-logo-container ${isSticky ? "sticky" : ""}`}>
       <div>
-        <img className="logo" src={Logo} alt="logo" />
+        <Link to="/" onClick={handleLinkClick}>
+          <img className="logo" src={Logo} alt="logo" />
+        </Link>
       </div>
       <Menu
         right
+        isOpen={menuOpen}
+        onStateChange={handleStateChange}
         customBurgerIcon={<img src={BurgerMenu} alt="burger-menu" />}
         customCrossIcon={<img src={NavbarCross} alt="cross" />}
       >
-        <a href="/" id="home" className="menu-item">
+        <Link
+          to="/"
+          className="menu-item"
+          onClick={() => {
+            closeMenu();
+            handleLinkClick();
+          }}
+        >
           Início
-        </a>
-        <a href="/metodologias" id="about" className="menu-item">
+        </Link>
+        <Link
+          to="/metodologias"
+          className="menu-item"
+          onClick={() => {
+            closeMenu();
+            handleLinkClick();
+          }}
+        >
           Metodologias
-        </a>
-        <a href="/quem-somos" id="about" className="menu-item">
+        </Link>
+        <Link
+          to="/quem-somos"
+          className="menu-item"
+          onClick={() => {
+            closeMenu();
+            handleLinkClick();
+          }}
+        >
           Quem somos
-        </a>
-        <a href="/solucoes" id="contact" className="menu-item">
+        </Link>
+        <Link
+          to="/solucoes"
+          className="menu-item"
+          onClick={() => {
+            closeMenu();
+            handleLinkClick();
+          }}
+        >
           Soluções
-        </a>
-        <a href="/agendar" id="settings" className="menu-item">
+        </Link>
+        <Link
+          to="/agendar"
+          className="menu-item"
+          onClick={() => {
+            closeMenu();
+            handleLinkClick();
+          }}
+        >
           Agendar
-        </a>
+        </Link>
       </Menu>
     </div>
   );

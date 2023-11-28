@@ -1,6 +1,9 @@
 .navbar-menu-logo-container {
   height: 90px;
   margin-bottom: 30px;
+  /* z-index: 99999999 !important; */
+  /* background-color: red; */
+  position: relative;
 }
 
 .logo {
@@ -104,4 +107,18 @@
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-menu-logo-container {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-menu-logo-container.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(5, 93, 242, 0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
 }
