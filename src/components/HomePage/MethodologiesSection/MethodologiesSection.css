@@ -74,4 +74,5 @@ body {
   background-image: url(../../../Assets/HomePage/MethodologiesAssets/MethodologiesBackground/MethodologiesBackground.png);
   margin-bottom: 100px;
   height: 645px;
+  background-size: 100% 100%;
 }

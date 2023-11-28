@@ -6,6 +6,33 @@ import insta from "../../Assets/FooterAssets/Instagram.png";
 import linkedin from "../../Assets/FooterAssets/LinkedIn.png";
 
 const Footer = () => {
+  const phoneNumber = "+351 913 143 178";
+
+  const instaHanldeClick = () => {
+    window.open("https://www.instagram.com/translucido.pt/", "_blank");
+  };
+
+  const linkedInHanldeClick = () => {
+    window.open(
+      "https://www.linkedin.com/company/transl%C3%BAcido-pt/",
+      "_blank"
+    );
+  };
+
+  const handleLinkClick = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  const handleNunoClick = () => {
+    window.open(
+      "https://www.linkedin.com/in/nuno-cola%C3%A7o-836163174/",
+      "_blank"
+    );
+  };
+
   return (
     <>
       <div className="footer-main-container">
@@ -17,10 +44,23 @@ const Footer = () => {
           <p className="footer-address">Lisboa, Portugal</p>
           <div className="footer-mail-number-section">
             <div>
-              <p>t. +351 913 143 178</p>
+              <p>
+                <a
+                  className="contacts"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                  href={`tel:${phoneNumber}`}
+                >
+                  {phoneNumber}
+                </a>
+              </p>
             </div>
             <div>
-              <p>e. translucido.empatia@gmail.com</p>
+              <a
+                className="contacts"
+                href="mailto:translucido.empatia@gmail.com?subject=Feedback%20sobre%20a%20Translúcido!&body=Olá!%20Gostamos%20muito%20dos%20nossos%20clientes,%20por%20isso%20temos%20todo%20o%20gosto%20em%20receber%20sugestões%20e%20feedback.%20Obrigado!"
+              >
+                <p>e. translucido.empatia@gmail.com</p>
+              </a>
             </div>
           </div>
         </div>
@@ -74,11 +114,24 @@ const Footer = () => {
 
         <div className="social-media-icons">
           <div>
-            <img className="footer-icon" src={insta} alt="instagram" />
+            <img
+              onClick={instaHanldeClick}
+              className="footer-icon"
+              src={insta}
+              alt="instagram"
+            />
           </div>
           <div>
-            <img className="footer-icon" src={linkedin} alt="linkedin" />
+            <img
+              onClick={linkedInHanldeClick}
+              className="footer-icon"
+              src={linkedin}
+              alt="linkedin"
+            />
           </div>
+        </div>
+        <div className="linkedInNuno" onClick={handleNunoClick}>
+          <h5>&nbsp;Website By: Nuno Colaço</h5>
         </div>
       </div>
     </>
