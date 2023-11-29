@@ -75,7 +75,13 @@ const Footer = () => {
         <div className="footer-pages-section">
           <div className="footer-pages">
             <div>
-              <h5>Início</h5>
+              <Link
+                to="/"
+                onClick={handleLinkClick}
+                style={{ textDecoration: "none" }}
+              >
+                <h5>Início</h5>
+              </Link>
             </div>
             <div>
               <p>Quem Somos</p>
@@ -90,7 +96,13 @@ const Footer = () => {
 
           <div className="footer-pages">
             <div>
-              <h5>Metodologias</h5>
+              <Link
+                to="/metodologias"
+                onClick={handleLinkClick}
+                style={{ textDecoration: "none" }}
+              >
+                <h5>Metodologias</h5>
+              </Link>
             </div>
             <div>
               <p>Imersão</p>
@@ -108,7 +120,13 @@ const Footer = () => {
 
           <div className="footer-pages">
             <div>
-              <h5>Soluções</h5>
+              <Link
+                to="/solucoes"
+                onClick={handleLinkClick}
+                style={{ textDecoration: "none" }}
+              >
+                <h5>Soluções</h5>
+              </Link>
             </div>
             <div>
               <p>Consultoria</p>

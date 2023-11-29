@@ -4,6 +4,7 @@ import "./SolutionsCards.css";
 import formacaoIcon from "../../../../Assets/HomePage/SolutionsAssets/FormaçãoIcon.png";
 import consultadoriaIcon from "../../../../Assets/HomePage/SolutionsAssets/ConsultadoriaIcon.png";
 import Arrow from "../../../../Assets/HomePage/SolutionsAssets/SolutionsArrow.png";
+import { Link } from "react-router-dom";
 
 const cardsData = [
   {
@@ -12,7 +13,7 @@ const cardsData = [
     title: "Consultoria",
     subtitle: "Plano de ação",
     text: "Avaliação empática do contexto laboral.",
-    href: "/consultoria",
+    to: "/consultoria",
   },
   {
     id: 2,
@@ -20,7 +21,7 @@ const cardsData = [
     title: "Formação",
     subtitle: "12 horas de formação presencial e 6h treino especializado",
     text: "Metodologia combinada com dinâmicas de imersão, sociodrama, design thinking e storytelling.",
-    href: "/formacao",
+    to: "/formacao",
   },
 ];
 
@@ -36,9 +37,9 @@ const Card = ({ data }) => (
     <div>
       <p>{data.text}</p>
     </div>
-    <a href={data.href}>
+    <Link to={data.to}>
       <img src={Arrow} alt="arrow" />
-    </a>
+    </Link>
   </div>
 );
 
