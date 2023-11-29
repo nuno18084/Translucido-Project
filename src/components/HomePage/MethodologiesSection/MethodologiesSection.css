@@ -76,3 +76,69 @@ body {
   height: 645px;
   background-size: 100% 100%;
 }
+
+.methodologies-cards {
+  padding: 5%;
+}
+
+.methodologies-cards h1 {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.methodologies-cards p {
+  font-size: 9px;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.methodologies-arrow {
+  width: 40px;
+}
+
+.methodologies-cards {
+  position: relative;
+}
+
+.methodologies-cartoons {
+  position: absolute;
+  bottom: 10px;
+  right: 55px;
+  transform: translate(35%, 5%) !important;
+  z-index: 1;
+  width: 150px;
+}
+
+.swiper-slide {
+  align-items: normal;
+}
+
+.custom-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.custom-pagination-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: var(--white-color);
+  margin: 5px 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: var(--white-color);
+  }
+}
+
+.custom-pagination-dot.active {
+  background-color: var(--white-color);
+}
+
+.custom-pagination-dot.active,
+.custom-pagination-dot:hover {
+  background-color: var(--white-color);
+}
