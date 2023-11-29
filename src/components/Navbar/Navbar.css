@@ -1,6 +1,6 @@
 .navbar-menu-logo-container {
   height: 90px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   /* z-index: 99999999 !important; */
   /* background-color: red; */
   position: relative;
@@ -38,8 +38,8 @@
 .bm-cross-button {
   height: 24px;
   width: 24px;
-  right: 16px !important;
-  top: 16px !important;
+  right: 20px !important;
+  top: 20px !important;
   background: transparent;
 }
 

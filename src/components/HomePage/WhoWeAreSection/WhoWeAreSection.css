@@ -29,8 +29,9 @@
 .who-we-are-btns {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 105px;
+  gap: 15px;
 }
 
 .who-we-are-btn-left {
