@@ -5,22 +5,36 @@
 }
 
 .circle-image {
-  position: relative;
+  /* transform: translate(95%, -50%) !important; */
+  /* position: relative;
   width: 200px;
-  transform: translate(95%, -50%) !important;
+  top: 50%;
+  left: 40%; 
+  transform: translate(0, -50%); */
+
+  position: absolute;
+  width: 200px;
+  top: 0 !important;
+  right: 0;
+  z-index: 0;
 }
 
 .landing-image {
   position: relative;
   width: 300px;
-  transform: translate(10%, -180%) !important;
-  height: 150px;
-  margin-bottom: 0px;
+  transform: translate(10%, 80%) !important;
+  height: 160px;
+  margin-bottom: 50px;
+  /* top: 60%; */
+  padding-top: 20px;
 }
 
 .methodologies-main-container {
   padding-left: 5%;
   padding-right: 5%;
+  position: relative;
+  /* overflow-x: hidden; */
+  z-index: -1;
 }
 
 .methodologies-main-container h1 {
@@ -37,12 +51,13 @@
   gap: 20px;
   color: var(--white-color);
   font-size: 12px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .methodologies-type-section {
-  margin-bottom: 100px;
-  background-size: 100% 100%;
+  margin-bottom: -55px;
+  z-index: 0;
+  /* background-size: 100% 100%; */
 }
 
 .methodologies-type-section p {
@@ -51,22 +66,35 @@
 
 .imersao-methodology {
   background-image: url(../../Assets/MethodologiesPage/MethodologiesBackgrounds/ImersaoBackground.png);
+  background-size: 100% 100% !important;
+  /* width: 100%; */
 }
 
 .sociodrama-methodology {
   background-image: url(../../Assets/MethodologiesPage/MethodologiesBackgrounds/SociodramaBackground.png);
+  background-size: 100% 100% !important;
 }
 
-.imersao-methodology img {
+.design-methodology {
+  background-image: url(../../Assets/MethodologiesPage/MethodologiesBackgrounds/DesignThinkBackground.png);
+  background-size: 100% 100% !important;
+  padding-bottom: 55px;
+  z-index: 0;
+  position: relative;
+}
+
+.teste {
   width: 300px;
   padding-top: 80px;
   margin-bottom: 30px;
   transform: translate(15%) !important;
+
+  /* width: 100%; */
 }
 
 .exception-image {
   padding-top: 60px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   width: 250px !important;
   transform: translate(35%, 10%) !important;
 }
@@ -84,4 +112,11 @@
   padding-bottom: 5px;
   border-bottom: 2px solid var(--white-color);
   width: 180px;
+}
+
+.methodologies-main-container,
+.methodologies-type-section {
+  position: relative;
+  z-index: -5;
+  padding-top: 80px;
 }

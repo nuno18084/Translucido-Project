@@ -8,37 +8,6 @@ import sociodrama from "../../Assets/HomePage/MethodologiesAssets/MethodologiesC
 import storytelling from "../../Assets/HomePage/MethodologiesAssets/MethodologiesCartoons/StoryTelling.png";
 import designthinking from "../../Assets/HomePage/MethodologiesAssets/MethodologiesCartoons/DesignThinking.png";
 
-// const solutionsData = [
-//   {
-//     id: 1,
-//     image: imersao,
-//     title: "Consultoria",
-//     subtitle: "Plano de ação",
-//     text: "Avaliação empática do contexto laboral.",
-//   },
-//   {
-//     id: 2,
-//     icon: sociodrama,
-//     title: "Formação",
-//     subtitle: "12 horas de formação presencial e 6h treino especializado",
-//     text: "Metodologia combinada com dinâmicas de imersão, sociodrama, design thinking e storytelling.",
-//   },
-//   {
-//     id: 3,
-//     icon: storytelling,
-//     title: "Formação",
-//     subtitle: "12 horas de formação presencial e 6h treino especializado",
-//     text: "Metodologia combinada com dinâmicas de imersão, sociodrama, design thinking e storytelling.",
-//   },
-//   {
-//     id: 4,
-//     icon: designthinking,
-//     title: "Formação",
-//     subtitle: "12 horas de formação presencial e 6h treino especializado",
-//     text: "Metodologia combinada com dinâmicas de imersão, sociodrama, design thinking e storytelling.",
-//   },
-// ];
-
 const MethodologiesPage = () => {
   return (
     <div>
@@ -94,7 +63,7 @@ const MethodologiesPage = () => {
       <div className="methodologies-type-section">
         <div className="imersao-methodology">
           <div>
-            <img src={imersao} alt="imersao" />
+            <img src={imersao} alt="imersao" className="teste" />
           </div>
           <div className="imersao-methodology-text">
             <div>
@@ -137,6 +106,55 @@ const MethodologiesPage = () => {
                   sobre o ponto de vista de outras pessoas, privilegiando o
                   treino da espontaneidade, como resposta adequada a novas
                   situações.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="">
+          <div>
+            <img src={storytelling} alt="imersao" className="exception-image" />
+          </div>
+          <div className="sociodrama-methodology-text">
+            <div>
+              <h2>Story telling</h2>
+            </div>
+            <div>
+              <div>
+                <p>
+                  Conhecer o outro e a sua história é a via mais poderosa, mas
+                  também necessária, para a criação de empatia. As estratégias
+                  de storytelling promovem a conexão entre orador e ouvinte.
+                  Contar histórias ativa o nosso sistema límbico, responsável
+                  pelas emoções e pela aprendizagem.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="design-methodology">
+          <div>
+            <img
+              src={designthinking}
+              alt="imersao"
+              className="exception-image"
+            />
+          </div>
+          <div className="sociodrama-methodology-text">
+            <div>
+              <h2>Design thinking</h2>
+            </div>
+            <div>
+              <div>
+                <p>
+                  Enquanto abordagem de pensamento criativo, estimula a procura
+                  de conhecimento e cria as condições necessárias para promover
+                  insights. Realizado de forma coletiva e colaborativa, reúne o
+                  máximo de perspetivas diferentes, essenciais para a capacidade
+                  empática, permite a tomada de perspetiva e uma compreensão das
+                  necessidades funcionais, psicológicas e emocionais do outro.
                 </p>
               </div>
             </div>

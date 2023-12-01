@@ -1,9 +1,10 @@
 .navbar-menu-logo-container {
-  height: 90px;
+  height: 95px;
   margin-bottom: 50px;
   /* z-index: 99999999 !important; */
   /* background-color: red; */
-  position: relative;
+  position: fixed;
+  z-index: 2;
 }
 
 .logo {
@@ -111,7 +112,7 @@
 
 .navbar-menu-logo-container {
   background-color: transparent;
-  transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease-in;
 }
 
 .navbar-menu-logo-container.sticky {
