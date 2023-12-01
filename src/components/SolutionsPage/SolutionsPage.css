@@ -1,0 +1,47 @@
+.solutions-main-container {
+  padding-top: 120px;
+  background-color: #4287fc;
+  height: 100svh;
+}
+
+.solutions-eclipse {
+  display: none;
+}
+
+.solutions-h1 {
+  border: none !important;
+  color: #1c478f !important;
+  font-weight: 700 !important;
+  font-size: 40px !important;
+}
+
+.solutions-center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.solutions-cartoon {
+  max-width: 280px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.solutions-btn {
+  width: auto;
+  height: auto;
+  font-family: Poppins;
+  /* padding: 16px, 40px; */
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  border-radius: 50px;
+  font-size: 14px;
+  border: 2px solid var(--white-color);
+  background-color: transparent;
+  color: var(--white-color);
+}
