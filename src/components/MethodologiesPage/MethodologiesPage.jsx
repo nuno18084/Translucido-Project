@@ -63,7 +63,11 @@ const MethodologiesPage = () => {
       <div className="methodologies-type-section">
         <div className="imersao-methodology">
           <div>
-            <img src={imersao} alt="imersao" className="teste" />
+            <img
+              src={imersao}
+              alt="imersao"
+              className="imersao-methodology-section"
+            />
           </div>
           <div className="imersao-methodology-text">
             <div>
