@@ -3,7 +3,7 @@
 }
 
 .solutions-main-container-2 {
-  padding-top: 120px;
+  padding-top: 130px;
   height: 100svh;
   margin-bottom: 0;
   background-color: #4287fc;
@@ -20,6 +20,7 @@
   color: #1c478f !important;
   font-weight: 700 !important;
   font-size: 40px !important;
+  margin-bottom: 30px;
 }
 
 .solutions-center-container {
@@ -33,7 +34,7 @@
 .solutions-cartoon {
   max-width: 280px;
   height: auto;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
 
 .solutions-btn {
