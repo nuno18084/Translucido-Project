@@ -2,6 +2,7 @@
   padding-top: 120px;
   background-color: #4287fc;
   height: 100svh;
+  margin-bottom: 0;
 }
 
 .solutions-eclipse {
@@ -33,15 +34,38 @@
   width: auto;
   height: auto;
   font-family: Poppins;
-  /* padding: 16px, 40px; */
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 14px;
+  padding-bottom: 14px;
 
   border-radius: 50px;
   font-size: 14px;
   border: 2px solid var(--white-color);
   background-color: transparent;
   color: var(--white-color);
+}
+
+.solutions-second-container {
+  background-image: url(../../Assets/SolutionsPage/SolutionsBackgrounds/SolutionsFirstBackground.png) !important;
+  background-size: 100% 100% !important;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  padding-left: 5%;
+  padding-right: 5%;
+  /* background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat; */
+  background-color: #4287fc;
+}
+
+.solutions-second-container p {
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+
+.solutions-third-container {
+  background-image: url(../../Assets/SolutionsPage/SolutionsBackgrounds/SolutionsSecondBackground.png) !important;
+  background-size: 100% 100% !important;
+  background-color: #055df2 !important;
 }
