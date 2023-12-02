@@ -10,7 +10,7 @@ import FormacaoImage from "../../Assets/SolutionsPage/SolutionsAssets/FormacaoIm
 const SolutionsPage = () => {
   return (
     <div className="page-main-container">
-      <div className="solutions-main-container">
+      <div className="solutions-main-container-2">
         <div className="solutions-first-container">
           <img src={eclipse} alt="eclipse" className="solutions-eclipse" />
         </div>
