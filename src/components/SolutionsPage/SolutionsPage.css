@@ -1,8 +1,14 @@
+.page-main-container {
+  background-color: #4287fc;
+}
+
 .solutions-main-container {
   padding-top: 120px;
-  background-color: #4287fc;
   height: 100svh;
   margin-bottom: 0;
+  background-color: #4287fc;
+  z-index: 0;
+  padding-bottom: 30px;
 }
 
 .solutions-eclipse {
@@ -53,10 +59,6 @@
   padding-bottom: 90px;
   padding-left: 5%;
   padding-right: 5%;
-  /* background-size: auto;
-  background-position: center;
-  background-repeat: no-repeat; */
-  background-color: #4287fc;
 }
 
 .solutions-second-container p {
@@ -67,5 +69,60 @@
 .solutions-third-container {
   background-image: url(../../Assets/SolutionsPage/SolutionsBackgrounds/SolutionsSecondBackground.png) !important;
   background-size: 100% 100% !important;
-  background-color: #055df2 !important;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  /* gap: 50px; */
+}
+
+.solutions-third-container p {
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+
+.solutions-images {
+  width: 100%;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.solutions-third-container h1 {
+  border-bottom: 2px solid var(--white-color);
+  width: 250px;
+  color: var(--white-color);
+  padding-bottom: 15px;
+  margin-bottom: 40px;
+}
+
+.solutions-forth-container {
+  background-size: 100% 100% !important;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #1c478f;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.solutions-forth-container h1 {
+  border-bottom: 2px solid var(--white-color);
+  width: 250px;
+  color: var(--white-color);
+  padding-bottom: 15px;
+  margin-bottom: 40px;
+}
+
+.solutions-forth-container p {
+  color: var(--white-color);
+  margin-bottom: 20px;
 }
