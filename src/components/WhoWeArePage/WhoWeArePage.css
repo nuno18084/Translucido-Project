@@ -214,3 +214,17 @@
   margin-bottom: 80px;
   text-transform: uppercase;
 }
+
+.who-seventh-container {
+  background-color: #1c478f;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  color: var(--white-color);
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}

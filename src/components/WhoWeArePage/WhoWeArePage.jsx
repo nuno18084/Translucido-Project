@@ -259,6 +259,17 @@ const WhoWeArePage = () => {
           </div>
         </Marquee>
       </div>
+
+      <div className="who-seventh-container">
+        <div>
+          <h2>A nossa missão é</h2>
+        </div>
+        <div>
+          <h1>
+            Humanizar as relações formais e potenciar as relações informais.
+          </h1>
+        </div>
+      </div>
     </>
   );
 };
