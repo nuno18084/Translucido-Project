@@ -9,6 +9,7 @@ import ArrowMax from "../../Assets/WhoWeAreAssets/WhoWeAreArrow.png";
 import doubleQuotes from "../../Assets/WhoWeAreAssets/DoubleQuotes.png";
 import Eclipse from "../../Assets/HomePage/LandingAssets/WhoWeAreFigs/EllipseRight.png";
 import ListItem from "../../Assets/WhoWeAreAssets/ListItem.png";
+import WordSlider from "./WordSlider/WordSlider";
 
 const WhoWeArePage = () => {
   return (
@@ -251,7 +252,9 @@ const WhoWeArePage = () => {
         <div>
           <h1>PRINCÍPIOS ORIENTADORES</h1>
         </div>
-        <div></div>
+        <div>
+          <WordSlider />
+        </div>
       </div>
     </>
   );
