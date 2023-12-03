@@ -10,6 +10,7 @@ import doubleQuotes from "../../Assets/WhoWeAreAssets/DoubleQuotes.png";
 import Eclipse from "../../Assets/HomePage/LandingAssets/WhoWeAreFigs/EllipseRight.png";
 import ListItem from "../../Assets/WhoWeAreAssets/ListItem.png";
 import WordSlider from "./WordSlider/WordSlider";
+import Marquee from "react-fast-marquee";
 
 const WhoWeArePage = () => {
   return (
@@ -252,9 +253,11 @@ const WhoWeArePage = () => {
         <div>
           <h1>PRINCÍPIOS ORIENTADORES</h1>
         </div>
-        <div>
-          <WordSlider />
-        </div>
+        <Marquee>
+          <div>
+            <WordSlider />
+          </div>
+        </Marquee>
       </div>
     </>
   );
