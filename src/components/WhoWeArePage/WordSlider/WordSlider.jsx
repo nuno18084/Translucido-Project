@@ -6,11 +6,13 @@ const WordSlider = () => {
 
   return (
     <div className="marquee-container">
-      {words.map((word, index) => (
-        <h1 key={index} className="marquee-word">
-          {word}
-        </h1>
-      ))}
+      <div className="marquee-words">
+        {words.map((word, index) => (
+          <span key={index} className="marquee-word">
+            {word}
+          </span>
+        ))}
+      </div>
     </div>
   );
 };

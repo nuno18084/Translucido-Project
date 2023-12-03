@@ -1,18 +1,24 @@
 .marquee-container {
   white-space: nowrap;
   overflow: hidden;
+  width: 100%; /* Adjust as needed */
+}
+
+.marquee-words {
+  display: inline-block;
+  padding-right: 30px;
+  animation: marquee 15s linear infinite;
+  font-size: 40px;
 }
 
 .marquee-word {
-  display: inline-block;
-  padding-right: 30px; /* Adjust as needed for spacing between words */
-  animation: marquee 5s linear infinite;
-  border-bottom: none !important;
+  margin-right: 30px;
+  font-weight: 700;
 }
 
 @keyframes marquee {
   0% {
-    transform: translate(0, 0);
+    transform: translate(100%, 0);
   }
   100% {
     transform: translate(-100%, 0);
