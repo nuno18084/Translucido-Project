@@ -246,6 +246,13 @@ const WhoWeArePage = () => {
           </div>
         </div>
       </div>
+
+      <div className="who-sixth-container">
+        <div>
+          <h1>PRINCÍPIOS ORIENTADORES</h1>
+        </div>
+        <div></div>
+      </div>
     </>
   );
 };
