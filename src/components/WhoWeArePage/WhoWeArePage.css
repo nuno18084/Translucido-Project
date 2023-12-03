@@ -149,3 +149,50 @@
 .who-eclipse {
   display: none;
 }
+
+.who-fifth-container {
+  background-color: #1c478f;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: var(--white-color);
+}
+
+.who-fifth-container h1 {
+  border-bottom: 2px solid var(--white-color);
+  width: 300px;
+  padding-bottom: 15px;
+  margin-bottom: 80px;
+}
+
+.List-item {
+  width: 40px;
+}
+
+.list-item-container {
+  display: flex;
+  gap: 20px;
+}
+
+.list-item-container h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.list-item-container p {
+  margin-bottom: 50px;
+}
+
+.List-item-2 {
+  transform: rotate(-90deg);
+}
+
+.List-item-3 {
+  transform: rotate(-180deg);
+}
+
+.List-item-4 {
+  transform: rotate(-270deg);
+}

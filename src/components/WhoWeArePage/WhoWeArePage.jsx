@@ -8,6 +8,7 @@ import TranslucidoPic from "../../Assets/WhoWeAreAssets/WhoWeAreCartoon.png";
 import ArrowMax from "../../Assets/WhoWeAreAssets/WhoWeAreArrow.png";
 import doubleQuotes from "../../Assets/WhoWeAreAssets/DoubleQuotes.png";
 import Eclipse from "../../Assets/HomePage/LandingAssets/WhoWeAreFigs/EllipseRight.png";
+import ListItem from "../../Assets/WhoWeAreAssets/ListItem.png";
 
 const WhoWeArePage = () => {
   return (
@@ -174,6 +175,75 @@ const WhoWeArePage = () => {
         </div>
         <div>
           <img src={Eclipse} alt="eclipse" className="who-eclipse" />
+        </div>
+      </div>
+
+      <div className="who-fifth-container">
+        <div>
+          <h1>Os Nossos Valores</h1>
+        </div>
+        <div>
+          <div className="list-item-container">
+            <div>
+              <img src={ListItem} alt="List-item" className="List-item" />
+            </div>
+            <div className="list-item-h2-p">
+              <h2>Liberdade Psicológica</h2>
+              <p>
+                Independência psicológica, empoderando para a autogestão,
+                resolução de conflitos e vivência autónoma, promovendo e
+                mantendo o seu bem-estar.
+              </p>
+            </div>
+          </div>
+
+          <div className="list-item-container">
+            <div>
+              <img
+                src={ListItem}
+                alt="List-item"
+                className="List-item List-item-2"
+              />
+            </div>
+            <div className="list-item-h2-p">
+              <h2>AUTOCONHECIMENTO</h2>
+              <p>Promoção de autoconhecimento, provocando insight.</p>
+            </div>
+          </div>
+
+          <div className="list-item-container">
+            <div>
+              <img
+                src={ListItem}
+                alt="List-item"
+                className="List-item List-item-3"
+              />
+            </div>
+            <div className="list-item-h2-p">
+              <h2>HUMANIZAÇÃO</h2>
+              <p>
+                Humanizar as relações e interações melhora o bem-estar intra e
+                interpessoal.
+              </p>
+            </div>
+          </div>
+
+          <div className="list-item-container">
+            <div>
+              <img
+                src={ListItem}
+                alt="List-item"
+                className="List-item List-item-4"
+              />
+            </div>
+            <div className="list-item-h2-p">
+              <h2>AUTOPRESERVAÇÃO</h2>
+              <p>
+                Autopreservação, valorizando a individualidade e ajudando a
+                estabelecer limites e barreiras pessoais protetoras.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </>
