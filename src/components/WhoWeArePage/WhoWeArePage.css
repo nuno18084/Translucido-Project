@@ -1,0 +1,74 @@
+.who-main-container {
+  padding-top: 150px;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: var(--white-color);
+  margin-bottom: 50px;
+  background-color: #055df2;
+  padding-bottom: 50px;
+}
+
+.who-first-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 60px;
+  flex-direction: column;
+  margin-bottom: 120px;
+}
+
+.who-btn {
+  width: auto;
+  height: auto;
+  font-family: Poppins;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  font-size: 12px;
+  border: 2px solid var(--white-color);
+  background-color: transparent;
+  color: var(--white-color);
+}
+
+.who-pics-section {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.her-pic {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.linkedin-who {
+  width: 20px;
+}
+
+.who-name-linkedin {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  padding-left: 3%;
+  transform: translateY(-120%);
+  width: fit-content;
+  height: auto;
+}
+
+.who-rita-pic {
+  width: fit-content;
+  /* transform: translateY(-70%) !important; */
+  transform: translateX(65%) !important;
+  width: 200px;
+  z-index: -20 !important;
+}
+
+.who-ana-pic {
+  width: 200px;
+  z-index: 5 !important;
+  margin-bottom: -80px;
+}
