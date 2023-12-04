@@ -4,6 +4,12 @@ import FromRectangle from "../../Assets/FormPage/FormPageRectangle.png";
 import { FormComponent } from "./FormComponent/FormComponent";
 
 const FormPage = () => {
+  // const inputElement = document.querySelector("input");
+
+  // setInterval(() => {
+  //   inputElement.classList.toggle("cursor-blink");
+  // }, 500);
+
   return (
     <div className="form-main-container">
       <img
