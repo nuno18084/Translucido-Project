@@ -1,0 +1,68 @@
+.form-main-container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* gap: 20px; */
+}
+
+.form-input-label {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-main-container-2 input {
+  width: 80vw;
+  height: 25px;
+  border-style: none;
+}
+
+.form-main-container-2 textarea {
+  width: 80vw;
+  height: 150px;
+  border-style: none;
+}
+
+.form-input-label input,
+.form-input-label textarea {
+  border: none;
+  border-bottom: 1px solid var(--white-color);
+  outline: none;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  caret-color: var(--white-color);
+  color: var(--white-color);
+  animation: blink 2s infinite ease;
+}
+
+.form-message-area {
+  margin-bottom: 20px !important;
+}
+
+.submit-btn {
+  width: 200px !important;
+  height: 30px !important;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 1px solid var(--white-color) !important;
+  color: var(--white-color) !important;
+}
+
+@keyframes blink {
+  0%,
+  50%,
+  100% {
+    caret-color: var(
+      --white-color
+    ); /* Set the color for the text cursor when visible */
+  }
+  25%,
+  75% {
+    caret-color: transparent; /* Set the color for the text cursor when hidden */
+  }
+}

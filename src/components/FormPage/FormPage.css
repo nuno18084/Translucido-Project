@@ -3,6 +3,11 @@
   padding-left: 5%;
   padding-right: 5%;
   color: var(--white-color);
+  margin-bottom: 80px;
+}
+
+.form-main-container h1 {
+  margin-bottom: 80px;
 }
 
 .form-rectangle {

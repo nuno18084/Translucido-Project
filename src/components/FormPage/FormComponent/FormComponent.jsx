@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
+import "./FormComponent.css";
 
 export const FormComponent = () => {
   const form = useRef();
@@ -9,10 +10,10 @@ export const FormComponent = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID", // Email Services - ServiceID
-        "YOUR_TEMPLATE_ID", // Email Template - TemplateID
+        "service_avq9c5c", // Email Services - ServiceID
+        "template_q3kuksu", // Email Template - TemplateID
         form.current,
-        "YOUR_PUBLIC_KEY" // Account - Pblic key
+        "ao0by5cqFGggXbluF" // Account - Pblic key
       )
       .then(
         (result) => {
@@ -26,13 +27,23 @@ export const FormComponent = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <label>Nome</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Mendagem</label>
-      <textarea name="message" />
-      <input type="submit" value="Submeter" />
+      <div className="form-main-container-2">
+        <div className="form-input-label">
+          <label>Nome:</label>
+          <input type="text" name="user_name" />
+        </div>
+        <div className="form-input-label">
+          <label>Email:</label>
+          <input type="email" name="user_email" />
+        </div>
+        <div className="form-input-label">
+          <label>Mensagem:</label>
+          <textarea className="form-message-area" name="message" />
+        </div>
+        <div>
+          <input className="submit-btn" type="submit" value="Submeter" />
+        </div>
+      </div>
     </form>
   );
 };
