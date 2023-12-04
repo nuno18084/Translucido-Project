@@ -72,35 +72,21 @@ const SolutionsPage = () => {
           </div>
           <div>
             <p>
-              Num processo de co-construção com o cliente, definimos um plano de
-              ação, com medidas e estratégias transversais a toda a organização,
-              quer ao nível da equipa, como da sua cultura, no propósito de
-              tornar o local de trabalho mais empático para todos os envolvidos.
+              Atuamos na gestão e desenvolvimento de projetos, adicionando
+              empatia à sua solução. Usamos metodologia de design thinking com
+              recurso ao mapa empático.
             </p>
           </div>
           <div>
             <p>
-              Fazendo uso dos riscos psicossociais, do índice de reatividade
-              interpessoal e dos critérios de uma organização saudável,
-              avaliamos potencialidades e fragilidades. Depois de ouvir e
-              respeitar, é altura de refletir e intervir, proporcionando
-              melhoria na relação entre os vários colaboradores e liderança, mas
-              também uma melhor compreensão e relação com o cliente e/ ou
-              beneficiário. Encontrar os focos de conflito ou de comportamentos
-              e atitudes que carecem de empatia, é, habitualmente, o primeiro
-              fator de intervenção, mas também algumas medidas ao nível do
-              espaço e funcionamento poderão ser úteis.
-            </p>
-          </div>
-          <div>
-            <p>
-              O objetivo final será, a partir da transformação criada, obter
-              impacto emocional e financeiro positivo.
-            </p>
-          </div>
-          <div>
-            <p>
-              Pessoas empáticas são mais resilientes, cooperantes e produtivas.
+              Potenciamos o seu negócio! Num processo de co-construção com o
+              cliente, definimos um plano de ação, com medidas e estratégias
+              transversais a toda a organização. Fazendo uso dos riscos
+              psicossociais, do índice de reatividade interpessoal e dos
+              critérios de uma organização saudável, avaliamos potencialidades e
+              fragilidades. Uma intervenção quer ao nível da equipa, como da sua
+              cultura, no propósito de tornar o local de trabalho mais empático
+              para todos os envolvidos.
             </p>
           </div>
         </div>
