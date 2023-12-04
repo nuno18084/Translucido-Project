@@ -44,6 +44,10 @@ export const FormComponent = () => {
       );
 
       console.log(result.text);
+      setName("");
+      setEmail("");
+      setMessage("");
+      setIsSubmitSuccess(true);
       setIsSubmitSuccess(true);
       notify();
     } catch (error) {
