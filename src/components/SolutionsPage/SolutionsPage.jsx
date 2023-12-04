@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable react/jsx-no-comment-textnodes */
-import React from "react";
+import React, { useRef } from "react";
 import "./SolutionsPage.css";
 import eclipse from "../../Assets/SolutionsPage/SolutionsAssets/SolutionsEclipse.png";
 import SolutionsCartoon from "../../Assets/SolutionsPage/SolutionsAssets/SolutionsCartoon.png";
@@ -8,6 +8,15 @@ import consultoriaImage from "../../Assets/SolutionsPage/SolutionsAssets/Consult
 import FormacaoImage from "../../Assets/SolutionsPage/SolutionsAssets/FormacaoImage.png";
 
 const SolutionsPage = () => {
+  const targetElementRef = useRef(null);
+
+  const handleButtonClick = () => {
+    // Scroll to the target element
+    if (targetElementRef.current) {
+      targetElementRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="page-main-container">
       <div className="solutions-main-container-2">
@@ -26,7 +35,9 @@ const SolutionsPage = () => {
             />
           </div>
           <div>
-            <button className="solutions-btn">Ver Soluções</button>
+            <button className="solutions-btn" onClick={handleButtonClick}>
+              Ver Soluções
+            </button>
           </div>
         </div>
         <div>
@@ -55,7 +66,11 @@ const SolutionsPage = () => {
           </p>
         </div>
       </div>
-      <div className="solutions-third-container">
+      <div
+        className="solutions-third-container"
+        ref={targetElementRef}
+        id="targetElement"
+      >
         <div>
           <img
             src={consultoriaImage}
