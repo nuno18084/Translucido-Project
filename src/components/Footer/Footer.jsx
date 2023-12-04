@@ -54,10 +54,14 @@ const Footer = () => {
               <p>
                 <a
                   className="contacts"
-                  style={{ textDecoration: "none", color: "inherit" }}
+                  style={{
+                    textDecoration: "none",
+                    color: "inherit",
+                    fontSize: "12px",
+                  }}
                   href={`tel:${phoneNumber}`}
                 >
-                  {phoneNumber}
+                  t. {phoneNumber}
                 </a>
               </p>
             </div>
@@ -65,8 +69,11 @@ const Footer = () => {
               <a
                 className="contacts"
                 href="mailto:translucido.empatia@gmail.com?subject=Feedback%20sobre%20a%20Translúcido!&body=Olá!%20Gostamos%20muito%20dos%20nossos%20clientes,%20por%20isso%20temos%20todo%20o%20gosto%20em%20receber%20sugestões%20e%20feedback.%20Obrigado!"
+                style={{ textDecoration: "none", fontSize: "12px" }}
               >
-                <p>e. translucido.empatia@gmail.com</p>
+                <p style={{ fontSize: "12px" }}>
+                  e. translucido.empatia@gmail.com
+                </p>
               </a>
             </div>
           </div>
