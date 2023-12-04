@@ -1,6 +1,20 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import "./FormComponent.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+const notify = () =>
+  toast.success("Sucesso!", {
+    position: "top-right",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "colored",
+  });
 
 export const FormComponent = () => {
   const form = useRef();
@@ -8,8 +22,9 @@ export const FormComponent = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [isFormValid, setIsFormValid] = useState(true);
+  const [isSubmitSuccess, setIsSubmitSuccess] = useState(false);
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
 
     // Validate form before submitting
@@ -20,21 +35,20 @@ export const FormComponent = () => {
 
     setIsFormValid(true);
 
-    emailjs
-      .sendForm(
+    try {
+      const result = await emailjs.sendForm(
         "service_avq9c5c",
         "template_q3kuksu",
         form.current,
         "ao0by5cqFGggXbluF"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
       );
+
+      console.log(result.text);
+      setIsSubmitSuccess(true);
+      notify();
+    } catch (error) {
+      console.error(error.text);
+    }
   };
 
   const handleInputChange = (e) => {
@@ -94,8 +108,7 @@ export const FormComponent = () => {
           />
         </div>
         <div>
-          <input
-            // className="submit-btn"
+          <button
             className={`submit-btn ${
               !isFormValid || !message || !email || !name
                 ? "not-valid-btn "
@@ -104,7 +117,10 @@ export const FormComponent = () => {
             type="submit"
             value="Submeter"
             disabled={!isFormValid}
-          />
+          >
+            Submeter
+          </button>
+          {isSubmitSuccess && <ToastContainer />}
         </div>
       </div>
     </form>
