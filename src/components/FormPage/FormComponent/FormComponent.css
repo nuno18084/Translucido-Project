@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* gap: 20px; */
 }
 
 .form-input-label {
@@ -30,7 +29,6 @@
 .form-input-label input,
 .form-input-label textarea {
   border-radius: 0px;
-  /* border: none; */
   border-bottom: 2px solid var(--white-color);
   outline: none;
   padding: 5px;
@@ -59,13 +57,11 @@
   0%,
   50%,
   100% {
-    caret-color: var(
-      --white-color
-    ); /* Set the color for the text cursor when visible */
+    caret-color: var(--white-color);
   }
   25%,
   75% {
-    caret-color: transparent; /* Set the color for the text cursor when hidden */
+    caret-color: transparent;
   }
 }
 
@@ -88,11 +84,16 @@
 }
 
 .form-input {
-  font-size: 16px; /* Adjust the font size as needed */
+  font-size: 16px;
 }
 
 .form-main-container-2 input,
 .form-main-container-2 textarea {
-  touch-action: manipulation; /* Prevent zooming on touch devices */
-  font-size: 16px; /* Adjust the font size as needed */
+  touch-action: manipulation;
+  font-size: 16px;
+}
+
+.not-valid-btn {
+  border: 1.5px solid rgb(152, 152, 152) !important;
+  color: rgb(152, 152, 152) !important;
 }

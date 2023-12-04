@@ -95,7 +95,12 @@ export const FormComponent = () => {
         </div>
         <div>
           <input
-            className="submit-btn"
+            // className="submit-btn"
+            className={`submit-btn ${
+              !isFormValid || !message || !email || !name
+                ? "not-valid-btn "
+                : ""
+            }`}
             type="submit"
             value="Submeter"
             disabled={!isFormValid}
