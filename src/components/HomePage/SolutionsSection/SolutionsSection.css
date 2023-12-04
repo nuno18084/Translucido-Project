@@ -19,10 +19,10 @@
 
 .solutions-main-container p {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   color: var(--white-color);
-  line-height: 20px;
+  line-height: 21px;
   width: 332px;
   margin-bottom: 50px;
 }

@@ -20,7 +20,7 @@ const WhoWeAreSection = () => {
           <p>
             A Translúcido dedica-se exclusivamente à empatia, à sua explicação
             científica e às suas potencialidades, promovendo relações empáticas,
-            em diferentes ambientes, por meio de treino e consultadoria. Visamos
+            em diferentes ambientes, por meio de treino e consultoria. Visamos
             capacitar a pessoa nas suas relações interpessoais.
           </p>
         </div>
