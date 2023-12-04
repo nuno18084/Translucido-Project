@@ -36,7 +36,7 @@
   background-color: transparent;
   caret-color: var(--white-color);
   color: var(--white-color);
-  animation: blink 2s infinite ease;
+  animation: blink 1.5s infinite ease;
 }
 
 .form-message-area {
