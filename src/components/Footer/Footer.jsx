@@ -27,6 +27,69 @@ const Footer = () => {
     });
   };
 
+  const handleQuemSomosClick = () => {
+    window.scrollTo({
+      top: 500,
+      behavior: "smooth",
+    });
+  };
+
+  const handleMetodologiasClick = () => {
+    window.scrollTo({
+      top: 1100,
+      behavior: "smooth",
+    });
+  };
+
+  const handleSolucoesClick = () => {
+    window.scrollTo({
+      top: 1800,
+      behavior: "smooth",
+    });
+  };
+
+  const handleimersaoClick = () => {
+    window.scrollTo({
+      top: 900,
+      behavior: "smooth",
+    });
+  };
+
+  const handlesociodramaClick = () => {
+    window.scrollTo({
+      top: 1720,
+      behavior: "smooth",
+    });
+  };
+
+  const handleStoryClick = () => {
+    window.scrollTo({
+      top: 2500,
+      behavior: "smooth",
+    });
+  };
+
+  const handleDesignClick = () => {
+    window.scrollTo({
+      top: 3200,
+      behavior: "smooth",
+    });
+  };
+
+  const handleConsultoriaClick = () => {
+    window.scrollTo({
+      top: 1000,
+      behavior: "smooth",
+    });
+  };
+
+  const handleFormacaoClick = () => {
+    window.scrollTo({
+      top: 2250,
+      behavior: "smooth",
+    });
+  };
+
   const handleNunoClick = () => {
     window.open(
       "https://www.linkedin.com/in/nuno-cola%C3%A7o-836163174/",
@@ -90,15 +153,33 @@ const Footer = () => {
                 <h5>Início</h5>
               </Link>
             </div>
-            <div>
-              <p>Quem Somos</p>
-            </div>
-            <div>
-              <p>Metodologias</p>
-            </div>
-            <div>
-              <p>Soluções</p>
-            </div>
+            <Link
+              to="/"
+              onClick={handleQuemSomosClick}
+              style={{ textDecoration: "none" }}
+            >
+              <div>
+                <p>Quem Somos</p>
+              </div>
+            </Link>
+            <Link
+              to="/"
+              onClick={handleMetodologiasClick}
+              style={{ textDecoration: "none" }}
+            >
+              <div>
+                <p>Metodologias</p>
+              </div>
+            </Link>
+            <Link
+              to="/"
+              onClick={handleSolucoesClick}
+              style={{ textDecoration: "none" }}
+            >
+              <div>
+                <p>Soluções</p>
+              </div>
+            </Link>
           </div>
 
           <div className="footer-pages">
@@ -111,18 +192,42 @@ const Footer = () => {
                 <h5>Metodologias</h5>
               </Link>
             </div>
-            <div>
-              <p>Imersão</p>
-            </div>
-            <div>
-              <p>Sociodrama</p>
-            </div>
-            <div>
-              <p>Story telling</p>
-            </div>
-            <div>
-              <p>Design thinking</p>
-            </div>
+            <Link
+              to="/metodologias"
+              onClick={handleimersaoClick}
+              style={{ textDecoration: "none" }}
+            >
+              <div>
+                <p>Imersão</p>
+              </div>
+            </Link>
+            <Link
+              to="/metodologias"
+              onClick={handlesociodramaClick}
+              style={{ textDecoration: "none" }}
+            >
+              <div>
+                <p>Sociodrama</p>
+              </div>
+            </Link>
+            <Link
+              to="/metodologias"
+              onClick={handleStoryClick}
+              style={{ textDecoration: "none" }}
+            >
+              <div>
+                <p>Story telling</p>
+              </div>
+            </Link>
+            <Link
+              to="/metodologias"
+              onClick={handleDesignClick}
+              style={{ textDecoration: "none" }}
+            >
+              <div>
+                <p>Design thinking</p>
+              </div>
+            </Link>
           </div>
 
           <div className="footer-pages">
@@ -135,12 +240,24 @@ const Footer = () => {
                 <h5>Soluções</h5>
               </Link>
             </div>
-            <div>
-              <p>Consultoria</p>
-            </div>
-            <div>
-              <p>Formação</p>
-            </div>
+            <Link
+              to="/solucoes"
+              onClick={handleConsultoriaClick}
+              style={{ textDecoration: "none" }}
+            >
+              <div>
+                <p>Consultoria</p>
+              </div>
+            </Link>
+            <Link
+              to="/solucoes"
+              onClick={handleFormacaoClick}
+              style={{ textDecoration: "none" }}
+            >
+              <div>
+                <p>Formação</p>
+              </div>
+            </Link>
           </div>
         </div>
 
