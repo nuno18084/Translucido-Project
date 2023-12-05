@@ -112,6 +112,7 @@ body {
 
 .swiper-slide {
   align-items: normal;
+  border-radius: 3px;
 }
 
 .custom-pagination {

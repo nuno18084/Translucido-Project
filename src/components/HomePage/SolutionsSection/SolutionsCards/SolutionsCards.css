@@ -16,6 +16,8 @@
   background-color: white;
   height: fit-content;
   padding: 25px;
+  border-radius: 3px;
+
   /* gap: 50px; */
 }
 
