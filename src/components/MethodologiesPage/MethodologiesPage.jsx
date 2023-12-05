@@ -95,7 +95,7 @@ const MethodologiesPage = () => {
               <h2>Sociodrama</h2>
             </div>
             <div>
-              <div>
+              <div className="sociodrama-methodology-text-exception">
                 <p>
                   Esta estratégia de intervenção pedagógica, dirigida à
                   transformação de comportamentos nos grupos, parte da avaliação
