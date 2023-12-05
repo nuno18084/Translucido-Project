@@ -17,11 +17,11 @@ const FormPage = () => {
         alt="form-rectangle"
         className="form-rectangle"
       />
-      <div>
+      <div className="form-media-container">
         <div>
           <h1>Agende Connosco!</h1>
         </div>
-        <div>
+        <div className="form-component">
           <FormComponent />
         </div>
       </div>

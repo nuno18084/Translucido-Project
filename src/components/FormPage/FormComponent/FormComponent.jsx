@@ -80,37 +80,42 @@ export const FormComponent = () => {
   return (
     <form ref={form} onSubmit={sendEmail}>
       <div className="form-main-container-2">
-        <div className={`form-input-label ${!isFormValid ? "invalid" : ""}`}>
-          <label>Nome:</label>
-          <input
-            type="text"
-            name="user_name"
-            value={name}
-            onChange={handleInputChange}
-            className={`form-input ${!isFormValid && !name ? "invalid" : ""}`}
-          />
+        <div className="form-principal-container">
+          <div className={`form-input-label ${!isFormValid ? "invalid" : ""}`}>
+            <label>Nome:</label>
+            <input
+              type="text"
+              name="user_name"
+              value={name}
+              onChange={handleInputChange}
+              className={`form-input ${!isFormValid && !name ? "invalid" : ""}`}
+            />
+          </div>
+          <div className={`form-input-label ${!isFormValid ? "invalid" : ""}`}>
+            <label>Email:</label>
+            <input
+              type="email"
+              name="user_email"
+              value={email}
+              onChange={handleInputChange}
+              className={`form-input ${
+                !isFormValid && !email ? "invalid" : ""
+              }`}
+            />
+          </div>
+          <div className={`form-input-label ${!isFormValid ? "invalid" : ""}`}>
+            <label>Mensagem:</label>
+            <textarea
+              className={`form-input form-message-area ${
+                !isFormValid && !message ? "invalid" : ""
+              }`}
+              name="message"
+              value={message}
+              onChange={handleInputChange}
+            />
+          </div>
         </div>
-        <div className={`form-input-label ${!isFormValid ? "invalid" : ""}`}>
-          <label>Email:</label>
-          <input
-            type="email"
-            name="user_email"
-            value={email}
-            onChange={handleInputChange}
-            className={`form-input ${!isFormValid && !email ? "invalid" : ""}`}
-          />
-        </div>
-        <div className={`form-input-label ${!isFormValid ? "invalid" : ""}`}>
-          <label>Mensagem:</label>
-          <textarea
-            className={`form-input form-message-area ${
-              !isFormValid && !message ? "invalid" : ""
-            }`}
-            name="message"
-            value={message}
-            onChange={handleInputChange}
-          />
-        </div>
+
         <div>
           <button
             className={`submit-btn ${
