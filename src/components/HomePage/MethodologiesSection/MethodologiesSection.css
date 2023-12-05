@@ -78,7 +78,7 @@ body {
 }
 
 .methodologies-cards {
-  padding: 5%;
+  padding: 6%;
 }
 
 .methodologies-cards h1 {
@@ -87,8 +87,8 @@ body {
 }
 
 .methodologies-cards p {
-  font-size: 10px;
-  margin-bottom: 20px;
+  font-size: 12px;
+  margin-bottom: 22px;
   text-align: left;
   margin-top: 5px;
 }
