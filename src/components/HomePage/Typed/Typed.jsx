@@ -9,9 +9,9 @@ function TypedPhrase() {
     const typed = new Typed(el.current, {
       strings: [
         "permitir trabalho híbrido.",
-        "perguntar se está tudo bem.",
-        "uma soft skill desenvolvível.",
         "distinta de simpatia.",
+        "uma soft skill desenvolvível.",
+        "perguntar se está tudo bem.",
       ],
       typeSpeed: 100,
       loop: true,
