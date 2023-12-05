@@ -66,6 +66,11 @@ const CustomPagination = ({ swiper }) => {
 
 export default function MethodologiesSection() {
   const [swiperRef, setSwiperRef] = useState(null);
+  const [activeCard, setActiveCard] = useState(0);
+
+  const handleSlideChange = () => {
+    setActiveCard(swiperRef?.activeIndex || 0);
+  };
 
   return (
     <div className="methodologies-container">
@@ -85,10 +90,13 @@ export default function MethodologiesSection() {
           },
         }}
         navigation={true}
+        onSlideChange={handleSlideChange} // Add this to track slide changes
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
+        <SwiperSlide
+          style={{ transform: activeCard === 0 ? "scale(1)" : "scale(0.9)" }}
+        >
           <div className="methodologies-cards">
             <div>
               <h1>Imersão</h1>
@@ -106,7 +114,10 @@ export default function MethodologiesSection() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+
+        <SwiperSlide
+          style={{ transform: activeCard === 1 ? "scale(1)" : "scale(0.9)" }}
+        >
           <div className="methodologies-cards">
             <div>
               <h1>Sociodrama</h1>
@@ -123,7 +134,9 @@ export default function MethodologiesSection() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide
+          style={{ transform: activeCard === 2 ? "scale(1)" : "scale(0.9)" }}
+        >
           <div className="methodologies-cards">
             <div>
               <h1>Story telling</h1>
@@ -141,7 +154,9 @@ export default function MethodologiesSection() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide
+          style={{ transform: activeCard === 3 ? "scale(1)" : "scale(0.9)" }}
+        >
           <div className="methodologies-cards">
             <div>
               <h1>Design thinking</h1>
