@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -68,6 +69,34 @@ export default function MethodologiesSection() {
   const [swiperRef, setSwiperRef] = useState(null);
   const [activeCard, setActiveCard] = useState(0);
 
+  const handleLinkClick1 = () => {
+    window.scrollTo({
+      top: 900,
+      behavior: "smooth",
+    });
+  };
+
+  const handleLinkClick2 = () => {
+    window.scrollTo({
+      top: 1720,
+      behavior: "smooth",
+    });
+  };
+
+  const handleLinkClick3 = () => {
+    window.scrollTo({
+      top: 2500,
+      behavior: "smooth",
+    });
+  };
+
+  const handleLinkClick4 = () => {
+    window.scrollTo({
+      top: 3500,
+      behavior: "smooth",
+    });
+  };
+
   const handleSlideChange = () => {
     setActiveCard(swiperRef?.activeIndex || 0);
   };
@@ -105,9 +134,16 @@ export default function MethodologiesSection() {
                 debates e despertar empatia ao compreender processos
                 neurológicos subjacentes.
               </p>
-              <div className="methodologies-arrow">
-                <img src={Arrow} alt="arrow" />
-              </div>
+              <Link
+                to="/metodologias"
+                onClick={() => {
+                  handleLinkClick1();
+                }}
+              >
+                <div className="methodologies-arrow">
+                  <img src={Arrow} alt="arrow" />
+                </div>
+              </Link>
             </div>
             <div className="methodologies-cartoons">
               <img src={Imersao} alt="test" />
@@ -125,9 +161,16 @@ export default function MethodologiesSection() {
                 Utilizar dramatização para conscientizar grupos sobre questões,
                 promovendo reflexão empática e explorando soluções sensíveis.
               </p>
-              <div className="methodologies-arrow">
-                <img src={Arrow} alt="arrow" />
-              </div>
+              <Link
+                to="/metodologias"
+                onClick={() => {
+                  handleLinkClick2();
+                }}
+              >
+                <div className="methodologies-arrow">
+                  <img src={Arrow} alt="arrow" />
+                </div>
+              </Link>
             </div>
             <div className="methodologies-cartoons">
               <img src={Sociodrama} alt="test" />
@@ -145,9 +188,16 @@ export default function MethodologiesSection() {
                 debates e despertar empatia ao compreender processos
                 neurológicos subjacentes.
               </p>
-              <div className="methodologies-arrow">
-                <img src={Arrow} alt="arrow" />
-              </div>
+              <Link
+                to="/metodologias"
+                onClick={() => {
+                  handleLinkClick3();
+                }}
+              >
+                <div className="methodologies-arrow">
+                  <img src={Arrow} alt="arrow" />
+                </div>
+              </Link>
             </div>
             <div className="methodologies-cartoons">
               <img src={Story} alt="test" />
@@ -165,9 +215,16 @@ export default function MethodologiesSection() {
                 debates e despertar empatia ao compreender processos
                 neurológicos subjacentes.
               </p>
-              <div className="methodologies-arrow">
-                <img src={Arrow} alt="arrow" />
-              </div>
+              <Link
+                to="/metodologias"
+                onClick={() => {
+                  handleLinkClick4();
+                }}
+              >
+                <div className="methodologies-arrow">
+                  <img src={Arrow} alt="arrow" />
+                </div>
+              </Link>
             </div>
             <div className="methodologies-cartoons">
               <img src={Design} alt="test" />
