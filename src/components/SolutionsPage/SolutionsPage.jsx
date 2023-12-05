@@ -87,21 +87,23 @@ const SolutionsPage = () => {
           </div>
           <div>
             <p>
-              Atuamos na gestão e desenvolvimento de projetos, adicionando
-              empatia à sua solução. Usamos metodologia de design thinking com
-              recurso ao mapa empático.
+              Atuamos na <strong>gestão e desenvolvimento de projetos</strong>,
+              adicionando empatia à sua solução. Usamos metodologia de design
+              thinking com recurso ao mapa empático.
             </p>
           </div>
           <div>
             <p>
-              Potenciamos o seu negócio! Num processo de co-construção com o
-              cliente, definimos um plano de ação, com medidas e estratégias
+              Potenciamos o seu negócio! Num processo de{" "}
+              <strong>co-construção</strong> com o cliente, definimos um{" "}
+              <strong>plano de ação</strong>, com medidas e estratégias
               transversais a toda a organização. Fazendo uso dos riscos
               psicossociais, do índice de reatividade interpessoal e dos
               critérios de uma organização saudável, avaliamos potencialidades e
               fragilidades. Uma intervenção quer ao nível da equipa, como da sua
-              cultura, no propósito de tornar o local de trabalho mais empático
-              para todos os envolvidos.
+              cultura, no propósito de tornar o{" "}
+              <strong>local de trabalho mais empático</strong> para todos os
+              envolvidos.
             </p>
           </div>
         </div>
