@@ -6,6 +6,20 @@ import consultadoriaIcon from "../../../../Assets/HomePage/SolutionsAssets/Consu
 import Arrow from "../../../../Assets/HomePage/SolutionsAssets/SolutionsArrow.png";
 import { Link } from "react-router-dom";
 
+const handleLinkClick1 = () => {
+  window.scrollTo({
+    top: 1100,
+    behavior: "smooth",
+  });
+};
+
+const handleLinkClick2 = () => {
+  window.scrollTo({
+    top: 2250,
+    behavior: "smooth",
+  });
+};
+
 const cardsData = [
   {
     id: 1,
@@ -13,7 +27,8 @@ const cardsData = [
     title: "Consultoria",
     subtitle: "Plano de ação",
     text: "Avaliação empática do contexto laboral.",
-    to: "/consultoria",
+    to: "/solucoes",
+    onClick: handleLinkClick1,
   },
   {
     id: 2,
@@ -21,7 +36,8 @@ const cardsData = [
     title: "Formação",
     subtitle: "12 horas de formação presencial e 6h treino especializado",
     text: "Metodologia combinada com dinâmicas de imersão, sociodrama, design thinking e storytelling.",
-    to: "/formacao",
+    to: "/solucoes",
+    onClick: handleLinkClick2,
   },
 ];
 
@@ -37,7 +53,7 @@ const Card = ({ data }) => (
     <div>
       <p>{data.text}</p>
     </div>
-    <Link to={data.to}>
+    <Link to={data.to} onClick={data.onClick}>
       <img src={Arrow} alt="arrow" />
     </Link>
   </div>
