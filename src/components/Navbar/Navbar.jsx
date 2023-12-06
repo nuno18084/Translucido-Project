@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState, useEffect } from "react";
+import { useLocation, Link } from "react-router-dom";
 import { slide as Menu } from "react-burger-menu";
-import { Link } from "react-router-dom";
 import NavbarCross from "../../Assets/NavbarAssets/NavbarCross.png";
 import BurgerMenu from "../../Assets/NavbarAssets/HamburguerMenu.png";
 import Logo from "../../Assets/LogoAssets/MainLogo.png";
@@ -11,6 +11,8 @@ import "./Navbar.css";
 export default () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
+
+  const location = useLocation();
 
   const closeMenu = () => {
     setMenuOpen(false);
@@ -46,6 +48,10 @@ export default () => {
     };
   }, []);
 
+  const isLinkActive = (pathname) => {
+    return location.pathname === pathname;
+  };
+
   return (
     <div className={`navbar-menu-logo-container ${isSticky ? "sticky" : ""}`}>
       <div>
@@ -62,7 +68,7 @@ export default () => {
       >
         <Link
           to="/"
-          className="menu-item"
+          className={`menu-item ${isLinkActive("/") ? "active-link" : ""}`}
           onClick={() => {
             closeMenu();
             handleLinkClick();
@@ -72,7 +78,9 @@ export default () => {
         </Link>
         <Link
           to="/metodologias"
-          className="menu-item"
+          className={`menu-item ${
+            isLinkActive("/metodologias") ? "active-link" : ""
+          }`}
           onClick={() => {
             closeMenu();
             handleLinkClick();
@@ -82,7 +90,9 @@ export default () => {
         </Link>
         <Link
           to="/quem-somos"
-          className="menu-item"
+          className={`menu-item ${
+            isLinkActive("/quem-somos") ? "active-link" : ""
+          }`}
           onClick={() => {
             closeMenu();
             handleLinkClick();
@@ -92,7 +102,9 @@ export default () => {
         </Link>
         <Link
           to="/solucoes"
-          className="menu-item"
+          className={`menu-item ${
+            isLinkActive("/solucoes") ? "active-link" : ""
+          }`}
           onClick={() => {
             closeMenu();
             handleLinkClick();
@@ -102,7 +114,9 @@ export default () => {
         </Link>
         <Link
           to="/agendar"
-          className="menu-item"
+          className={`menu-item ${
+            isLinkActive("/agendar") ? "active-link" : ""
+          }`}
           onClick={() => {
             closeMenu();
             handleLinkClick();
