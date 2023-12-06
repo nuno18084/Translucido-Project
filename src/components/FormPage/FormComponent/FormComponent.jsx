@@ -37,10 +37,10 @@ export const FormComponent = () => {
 
     try {
       const result = await emailjs.sendForm(
-        "service_avq9c5c",
-        "template_q3kuksu",
+        "service_st6xk07",
+        "template_stvywf8",
         form.current,
-        "ao0by5cqFGggXbluF"
+        "407jpsr56wEqv9UcY"
       );
 
       console.log(result.text);
