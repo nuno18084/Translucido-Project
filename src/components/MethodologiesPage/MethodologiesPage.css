@@ -18,6 +18,7 @@
   top: 0 !important;
   right: 0;
   z-index: 0;
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
 }
 
 .landing-image {
@@ -28,6 +29,7 @@
   margin-bottom: 50px;
   /* top: 60%; */
   padding-top: 35px;
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
 }
 
 .methodologies-main-container {
@@ -68,17 +70,22 @@
 .imersao-methodology {
   background-image: url(../../Assets/MethodologiesPage/MethodologiesBackgrounds/ImersaoBackground.png);
   background-size: 100% 100% !important;
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
+
   /* width: 100%; */
 }
 
 .sociodrama-methodology {
   background-image: url(../../Assets/MethodologiesPage/MethodologiesBackgrounds/SociodramaBackground.png);
   background-size: 100% 100% !important;
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
 }
 
 .design-methodology {
   background-image: url(../../Assets/MethodologiesPage/MethodologiesBackgrounds/DesignThinkBackground.png);
   background-size: 100% 100% !important;
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
+
   padding-bottom: 55px;
   z-index: 0;
   position: relative;

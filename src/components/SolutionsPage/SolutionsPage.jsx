@@ -3,6 +3,7 @@
 import React, { useRef } from "react";
 import "./SolutionsPage.css";
 import eclipse from "../../Assets/SolutionsPage/SolutionsAssets/SolutionsEclipse.png";
+import eclipse2 from "../../Assets/SolutionsPage/SolutionsAssets/SolutionsEclipse.png";
 import SolutionsCartoon from "../../Assets/SolutionsPage/SolutionsAssets/SolutionsCartoon.png";
 import consultoriaImage from "../../Assets/SolutionsPage/SolutionsAssets/ConsultoriaImage.png";
 import FormacaoImage from "../../Assets/SolutionsPage/SolutionsAssets/FormacaoImage.png";
@@ -41,7 +42,7 @@ const SolutionsPage = () => {
           </div>
         </div>
         <div>
-          <img src={eclipse} alt="eclipse" className="solutions-eclipse" />
+          <img src={eclipse2} alt="eclipse" className="solutions-eclipse-2" />
         </div>
       </div>
       <div className="solutions-second-container">
