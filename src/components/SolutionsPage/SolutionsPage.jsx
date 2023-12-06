@@ -3,6 +3,7 @@
 import React, { useRef } from "react";
 import "./SolutionsPage.css";
 import eclipse from "../../Assets/SolutionsPage/SolutionsAssets/SolutionsEclipse.png";
+import eclipse2 from "../../Assets/SolutionsPage/SolutionsAssets/SolutionsEclipse.png";
 import SolutionsCartoon from "../../Assets/SolutionsPage/SolutionsAssets/SolutionsCartoon.png";
 import consultoriaImage from "../../Assets/SolutionsPage/SolutionsAssets/ConsultoriaImage.png";
 import FormacaoImage from "../../Assets/SolutionsPage/SolutionsAssets/FormacaoImage.png";
@@ -41,7 +42,7 @@ const SolutionsPage = () => {
           </div>
         </div>
         <div>
-          <img src={eclipse} alt="eclipse" className="solutions-eclipse" />
+          <img src={eclipse2} alt="eclipse" className="solutions-eclipse-2" />
         </div>
       </div>
       <div className="solutions-second-container">
@@ -78,33 +79,35 @@ const SolutionsPage = () => {
             className="solutions-images"
           />
         </div>
-        <div>
-          <h1>Consultoria</h1>
-        </div>
-        <div>
+        <div className="solutions-third-container-left">
           <div>
-            <p>Torne o seu projeto empático!</p>
+            <h1>Consultoria</h1>
           </div>
           <div>
-            <p>
-              Atuamos na <strong>gestão e desenvolvimento de projetos</strong>,
-              adicionando empatia à sua solução. Usamos metodologia de design
-              thinking com recurso ao mapa empático.
-            </p>
-          </div>
-          <div>
-            <p>
-              Potenciamos o seu negócio! Num processo de{" "}
-              <strong>co-construção</strong> com o cliente, definimos um{" "}
-              <strong>plano de ação</strong>, com medidas e estratégias
-              transversais a toda a organização. Fazendo uso dos riscos
-              psicossociais, do índice de reatividade interpessoal e dos
-              critérios de uma organização saudável, avaliamos potencialidades e
-              fragilidades. Uma intervenção quer ao nível da equipa, como da sua
-              cultura, no propósito de tornar o{" "}
-              <strong>local de trabalho mais empático</strong> para todos os
-              envolvidos.
-            </p>
+            <div>
+              <p>Torne o seu projeto empático!</p>
+            </div>
+            <div>
+              <p>
+                Atuamos na <strong>gestão e desenvolvimento de projetos</strong>
+                , adicionando empatia à sua solução. Usamos metodologia de
+                design thinking com recurso ao mapa empático.
+              </p>
+            </div>
+            <div>
+              <p>
+                Potenciamos o seu negócio! Num processo de{" "}
+                <strong>co-construção</strong> com o cliente, definimos um{" "}
+                <strong>plano de ação</strong>, com medidas e estratégias
+                transversais a toda a organização. Fazendo uso dos riscos
+                psicossociais, do índice de reatividade interpessoal e dos
+                critérios de uma organização saudável, avaliamos potencialidades
+                e fragilidades. Uma intervenção quer ao nível da equipa, como da
+                sua cultura, no propósito de tornar o{" "}
+                <strong>local de trabalho mais empático</strong> para todos os
+                envolvidos.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -117,38 +120,40 @@ const SolutionsPage = () => {
             className="solutions-images"
           />
         </div>
-        <div>
-          <h1>Formação</h1>
-        </div>
-        <div>
+        <div className="solutions-forth-container-left">
           <div>
-            <p>
-              A partir de uma metodologia combinada com dinâmicas de imersão,
-              sociodrama, design thinking, storytelling, permitimos aos
-              formandos desenvolver a competência empática.
-            </p>
+            <h1>Formação</h1>
           </div>
           <div>
-            <p>
-              Com 12 horas de formação presencial e 6 horas de plano de treino
-              especializado, promovemos o insight e capacitamos os formandos
-              para serem agentes ativos, quer por serem capazes de comunicarem
-              empaticamente e diminuir os conflitos interpessoais, quer pelo
-              desenvolvimento de projeto empático.
-            </p>
-          </div>
-          <div>
-            <p>
-              O treino enquanto via para o desenvolvimento da competência
-              empática, exige consistência e continuidade para que possa se
-              desenvolver.
-            </p>
-          </div>
-          <div>
-            <p>
-              É ainda produzido um relatório de avaliação empática, dando
-              feedback ao cliente.
-            </p>
+            <div>
+              <p>
+                A partir de uma metodologia combinada com dinâmicas de imersão,
+                sociodrama, design thinking, storytelling, permitimos aos
+                formandos desenvolver a competência empática.
+              </p>
+            </div>
+            <div>
+              <p>
+                Com 12 horas de formação presencial e 6 horas de plano de treino
+                especializado, promovemos o insight e capacitamos os formandos
+                para serem agentes ativos, quer por serem capazes de comunicarem
+                empaticamente e diminuir os conflitos interpessoais, quer pelo
+                desenvolvimento de projeto empático.
+              </p>
+            </div>
+            <div>
+              <p>
+                O treino enquanto via para o desenvolvimento da competência
+                empática, exige consistência e continuidade para que possa se
+                desenvolver.
+              </p>
+            </div>
+            <div>
+              <p>
+                É ainda produzido um relatório de avaliação empática, dando
+                feedback ao cliente.
+              </p>
+            </div>
           </div>
         </div>
       </div>
