@@ -51,6 +51,21 @@
   border: 2px solid var(--white-color);
   background-color: transparent;
   color: var(--white-color);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover state */
+
+.solutions-btn:hover {
+  background-color: var(--white-color);
+  color: var(--main-blue);
+}
+
+/* Click state */
+
+.solutions-btn:active {
+  transform: scale(0.95);
 }
 
 .solutions-second-container {

@@ -100,7 +100,22 @@
   width: 40px;
   padding-bottom: 50px;
   cursor: pointer;
+  transition: filter 0.3s, transform 0.3s;
 }
+
+.footer-icon:hover {
+  filter: brightness(100);
+  transform: scale(1.02);
+}
+
+/* .footer-icon:hover {
+  color: var(--main-blue);
+  border: var(--main-blue) !important;
+}
+
+.footer-icon:active {
+  transform: scale(0.95);
+} */
 
 .linkedInNuno h5 {
   font-size: 7px;

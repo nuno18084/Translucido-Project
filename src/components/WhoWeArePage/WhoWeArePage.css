@@ -30,6 +30,21 @@
   border: 2px solid var(--white-color);
   background-color: transparent;
   color: var(--white-color);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover state */
+
+.who-btn:hover {
+  background-color: var(--white-color);
+  color: var(--main-blue);
+}
+
+/* Click state */
+
+.who-btn:active {
+  transform: scale(0.95);
 }
 
 .who-pics-section {

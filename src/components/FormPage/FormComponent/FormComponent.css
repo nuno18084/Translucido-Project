@@ -51,6 +51,18 @@
   border: 1px solid var(--white-color) !important;
   color: var(--white-color) !important;
   font-size: 16px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.submit-btn-active:hover {
+  cursor: pointer;
+  background-color: var(--white-color);
+  color: var(--main-blue) !important;
+}
+
+/* Click state */
+.submit-btn-active:active {
+  transform: scale(0.95);
 }
 
 @keyframes blink {
@@ -96,4 +108,9 @@
 .not-valid-btn {
   border: 1.5px solid rgb(152, 152, 152) !important;
   color: rgb(152, 152, 152) !important;
+}
+
+.not-valid-btn:active {
+  border: 1.5px solid rgb(199, 65, 65) !important;
+  color: rgb(199, 65, 65) !important;
 }

@@ -47,6 +47,8 @@
   font-weight: 500;
   line-height: 18px;
   letter-spacing: 0em;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .who-we-are-btn-right {
@@ -60,4 +62,27 @@
   letter-spacing: 0em;
   background-color: var(--white-color);
   color: var(--main-blue);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  border: none;
+}
+
+/* Hover state */
+
+.who-we-are-btn-left:hover {
+  background-color: var(--white-color);
+  color: var(--main-blue);
+}
+
+.who-we-are-btn-right:hover {
+  background-color: var(--main-blue);
+  color: var(--white-color);
+  border: 3px solid var(--white-color);
+}
+
+/* Click state */
+
+.who-we-are-btn-left:active,
+.who-we-are-btn-right:active {
+  transform: scale(0.95);
 }

@@ -116,7 +116,7 @@ export const FormComponent = () => {
             className={`submit-btn ${
               !isFormValid || !message || !email || !name
                 ? "not-valid-btn "
-                : ""
+                : "submit-btn-active"
             }`}
             type="submit"
             value="Submeter"
