@@ -98,11 +98,12 @@
   margin-bottom: 10px;
   text-align: left;
   text-decoration: none;
-  transition: color 0.2s;
+  transition: color 0.2s, transform 0.3s;
 }
 
 .bm-item:hover {
-  color: #ffffff;
+  color: #23478f;
+  transform: scale(1.02);
 }
 
 /* Styling of overlay */
