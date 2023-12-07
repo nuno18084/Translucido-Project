@@ -131,12 +131,10 @@ const Footer = () => {
             <div>
               <a
                 className="contacts"
-                href="mailto:translucido.empatia@gmail.com?subject=Feedback%20sobre%20a%20Translúcido!&body=Olá!%20Gostamos%20muito%20dos%20nossos%20clientes,%20por%20isso%20temos%20todo%20o%20gosto%20em%20receber%20sugestões%20e%20feedback.%20Obrigado!"
+                href="mailto:geral@translucido.pt?subject=Feedback%20sobre%20a%20Translúcido!&body=Olá!%20Gostamos%20muito%20dos%20nossos%20clientes,%20por%20isso%20temos%20todo%20o%20gosto%20em%20receber%20sugestões%20e%20feedback.%20Obrigado!"
                 style={{ textDecoration: "none", fontSize: "12px" }}
               >
-                <p style={{ fontSize: "12px" }}>
-                  e. translucido.empatia@gmail.com
-                </p>
+                <p style={{ fontSize: "12px" }}>e. geral@translucido.pt</p>
               </a>
             </div>
           </div>
