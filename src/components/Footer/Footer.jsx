@@ -258,28 +258,27 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-
-        <div className="social-media-icons">
-          <div>
-            <img
-              onClick={instaHanldeClick}
-              className="footer-icon"
-              src={insta}
-              alt="instagram"
-            />
-          </div>
-          <div>
-            <img
-              onClick={linkedInHanldeClick}
-              className="footer-icon"
-              src={linkedin}
-              alt="linkedin"
-            />
-          </div>
+      </div>
+      <div className="social-media-icons">
+        <div>
+          <img
+            onClick={instaHanldeClick}
+            className="footer-icon"
+            src={insta}
+            alt="instagram"
+          />
         </div>
-        <div className="linkedInNuno" onClick={handleNunoClick}>
-          <h5>&nbsp;Website By: Nuno Colaço</h5>
+        <div>
+          <img
+            onClick={linkedInHanldeClick}
+            className="footer-icon"
+            src={linkedin}
+            alt="linkedin"
+          />
         </div>
+      </div>
+      <div className="linkedInNuno" onClick={handleNunoClick}>
+        <h5>&nbsp;Website By: Nuno Colaço</h5>
       </div>
     </>
   );

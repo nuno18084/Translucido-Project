@@ -15,7 +15,7 @@
   justify-content: flex-start;
   flex-direction: column;
   z-index: 50 !important;
-  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(2px 0px 0px rgba(0, 0, 0, 0.2));
 }
 
 .footer-arrow {
@@ -118,6 +118,11 @@
   transform: scale(0.95);
 } */
 
+.linkedInNuno {
+  background-color: #025df2;
+  text-align: center;
+}
+
 .linkedInNuno h5 {
   font-size: 7px;
   color: var(--white-color);
@@ -126,6 +131,61 @@
   cursor: pointer;
 }
 
+.social-media-icons {
+  background-color: #025df2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .contacts {
   cursor: pointer;
+}
+
+@media only screen and (min-width: 700px) {
+  .footer-arrow {
+    display: block;
+    width: 137px;
+    height: 137px;
+  }
+  .footer-logo-container img {
+    width: 300px !important;
+  }
+  .footer-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 5% 5%;
+    gap: 10%;
+    padding-bottom: 50px;
+  }
+  .footer-mail-number-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-pages-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 100px;
+  }
+  .footer-pages h5 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .footer-pages {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-pages p {
+    margin-bottom: 15px;
+    font-size: 12px;
+  }
 }
