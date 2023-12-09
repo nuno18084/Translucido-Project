@@ -286,6 +286,16 @@ body {
     z-index: 5 !important;
     margin-bottom: -80px;
   }
+  .linkedin-who {
+    width: 22px;
+  }
+  .who-name-linkedin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 10px;
+  }
   .who-first-container {
     margin-bottom: 0;
     margin-top: -80px;
