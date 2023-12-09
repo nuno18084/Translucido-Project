@@ -71,7 +71,7 @@ const MethodologiesPage = () => {
           </div>
           <div className="imersao-methodology-text">
             <div>
-              <h2>Imersão</h2>
+              <h2 className="imersao-methodology-text-h2">Imersão</h2>
             </div>
             <div>
               <p>
@@ -88,14 +88,18 @@ const MethodologiesPage = () => {
 
         <div className="sociodrama-methodology">
           <div>
-            <img src={sociodrama} alt="imersao" className="exception-image" />
+            <img
+              src={sociodrama}
+              alt="sociodrama"
+              className="exception-image"
+            />
           </div>
           <div className="sociodrama-methodology-text">
             <div>
               <h2>Sociodrama</h2>
             </div>
-            <div>
-              <div className="sociodrama-methodology-text-exception">
+            <div className="sociodrama-methodology-text-exception">
+              <div>
                 <p>
                   Esta estratégia de intervenção pedagógica, dirigida à
                   transformação de comportamentos nos grupos, parte da avaliação
@@ -118,7 +122,7 @@ const MethodologiesPage = () => {
 
         <div className="">
           <div>
-            <img src={storytelling} alt="imersao" className="exception-image" />
+            <img src={storytelling} alt="story" className="exception-image" />
           </div>
           <div className="sociodrama-methodology-text">
             <div>
@@ -142,7 +146,7 @@ const MethodologiesPage = () => {
           <div>
             <img
               src={designthinking}
-              alt="imersao"
+              alt="design"
               className="exception-image"
             />
           </div>

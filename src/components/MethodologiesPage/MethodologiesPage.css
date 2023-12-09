@@ -64,7 +64,7 @@
 }
 
 .methodologies-type-section p {
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 .imersao-methodology {
@@ -103,6 +103,7 @@
   padding-bottom: 30px;
   width: 250px !important;
   transform: translate(35%, 10%) !important;
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
 }
 
 .imersao-methodology-text,
@@ -129,4 +130,93 @@
 
 .sociodrama-methodology-text-exception {
   margin-bottom: -30px !important;
+}
+
+@media only screen and (min-width: 700px) {
+  .circle-image {
+    position: absolute;
+    width: 589px;
+    height: 900px;
+  }
+  .landing-image {
+    position: absolute;
+    width: 666px;
+    height: 343px;
+    top: -40%;
+    right: 2%;
+  }
+  .methodologies-main-container {
+    z-index: 1 !important;
+  }
+  .methodologies-main-container h1 {
+    margin-top: -200px;
+    font-size: 60px;
+  }
+  .p-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+  }
+  .p-section p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .imersao-methodology {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .imersao-methodology-section {
+    width: 420px;
+    height: 430px;
+  }
+  .imersao-methodology-text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+  }
+  .imersao-methodology-text-h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    width: 300px !important;
+  }
+  .imersao-methodology-text p {
+    width: 700px;
+    font-size: 16px;
+  }
+
+  .sociodrama-methodology {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
+  .exception-image {
+    width: 450px !important;
+    height: 550px;
+  }
+  .sociodrama-methodology-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+  }
+  .sociodrama-methodology-text h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    width: 350px;
+  }
+  .sociodrama-methodology-text-exception p {
+    width: 650px;
+    font-size: 16px;
+  }
 }
