@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "typed.js";
+import "../../../components/HomePage/HomePage.css";
 
 function TypedPhrase() {
   // Create reference to store the DOM element containing the animation
@@ -27,10 +28,10 @@ function TypedPhrase() {
 
   return (
     <div
-      className="App"
+      className="typed-phrase-component"
       style={{ display: "inline-block", height: "3em", overflow: "hidden" }}
     >
-      <span ref={el} />
+      <span className="typed-phrase-component" ref={el} />
     </div>
   );
 }

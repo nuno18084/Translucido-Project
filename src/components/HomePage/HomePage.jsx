@@ -22,21 +22,25 @@ const HomePage = () => {
 
   return (
     <div className="slider-and-phrase">
-      <div className="image-slider-container">
-        <ImageSlider images={rearrangedImages} className="images-roller" />
-        <img
-          className="images-background"
-          src={backgroundRoller}
-          alt="images-background"
-        />
-      </div>
-      <div className="home-page-phrase">
-        <div>
-          <h1 className="slider-and-phrase-h1">Empatia é</h1>
+      <div className="home-page-image-typed">
+        <div className="image-slider-container">
+          <ImageSlider images={rearrangedImages} className="images-roller" />
+          <img
+            className="images-background"
+            src={backgroundRoller}
+            alt="images-background"
+          />
         </div>
-      </div>
-      <div className="typed-phrase-h1">
-        <TypedPhrase />
+        <div className="home-page-phrase-typed-main-section">
+          <div className="home-page-phrase">
+            <div>
+              <h1 className="slider-and-phrase-h1">Empatia é</h1>
+            </div>
+          </div>
+          <div className="typed-phrase-h1">
+            <TypedPhrase />
+          </div>
+        </div>
       </div>
       <div>
         <img src={ScrollDown} alt="scroll-down" className="scroll-down" />

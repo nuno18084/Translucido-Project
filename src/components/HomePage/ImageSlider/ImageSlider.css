@@ -28,3 +28,22 @@
 .slider-image.next {
   transform: translateY(100%);
 }
+
+@media only screen and (min-width: 700px) {
+  .image-slider {
+    position: relative;
+    height: 370px;
+    width: 660px;
+    /* margin-top: 0 !important; */
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+  }
+}
+
+/* 
+width: 677px
+height: 369px
+top: 311.68px
+left: 1079.63px
+angle: -2.99 deg
+ */
