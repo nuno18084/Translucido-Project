@@ -1,3 +1,7 @@
+.footer-main-main-container {
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
+}
+
 .footer-main-container {
   background-image: url(../../Assets/FooterAssets/FooterBackground/FooterBackground.png);
   background-repeat: no-repeat;
@@ -15,7 +19,6 @@
   justify-content: flex-start;
   flex-direction: column;
   z-index: 50 !important;
-  filter: drop-shadow(2px 0px 0px rgba(0, 0, 0, 0.2));
 }
 
 .footer-arrow {

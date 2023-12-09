@@ -98,7 +98,7 @@ const Footer = () => {
   };
 
   return (
-    <>
+    <div className="footer-main-main-container">
       <div className="footer-main-container">
         <div>
           <img
@@ -285,7 +285,7 @@ const Footer = () => {
       <div className="linkedInNuno" onClick={handleNunoClick}>
         <h5>&nbsp;Website By: Nuno Colaço</h5>
       </div>
-    </>
+    </div>
   );
 };
 
