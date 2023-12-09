@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import TranslucidoPic from "../../Assets/WhoWeAreAssets/WhoWeAreCartoon.png";
 import ArrowMax from "../../Assets/WhoWeAreAssets/WhoWeAreArrow.png";
 import doubleQuotes from "../../Assets/WhoWeAreAssets/DoubleQuotes.png";
-import Eclipse from "../../Assets/HomePage/LandingAssets/WhoWeAreFigs/EllipseRight.png";
+import Eclipse from "../../Assets/WhoWeAreAssets/WhoEllipse.png";
 import ListItem from "../../Assets/WhoWeAreAssets/ListItem.png";
 import WordSlider from "./WordSlider/WordSlider";
 import Marquee from "react-fast-marquee";
@@ -88,35 +88,38 @@ const WhoWeArePage = () => {
         <div>
           <h1 className="translucido-h1">A Translúcido</h1>
         </div>
-        <div className="translucido-p-section">
-          <div>
-            <p>
-              Somos uma equipa de profissionais de psicologia,orientados para o
-              desenvolvimento da empatia. A Translúcido dedica-se exclusivamente
-              à capacidade empática, à sua explicação científica e às suas
-              potencialidades, promovendo relações empáticas, em diferentes
-              ambientes, por meio de treino e consultadoria.{" "}
-            </p>
+        <div className="who-p-image-section">
+          <div className="translucido-p-section">
+            <div>
+              <p>
+                Somos uma equipa de profissionais de psicologia,orientados para
+                o desenvolvimento da empatia. A Translúcido dedica-se
+                exclusivamente à capacidade empática, à sua explicação
+                científica e às suas potencialidades, promovendo relações
+                empáticas, em diferentes ambientes, por meio de treino e
+                consultadoria.{" "}
+              </p>
+            </div>
+            <div>
+              <p>
+                Visamos capacitar a pessoa nas suas relações interpessoais,
+                criando mudanças com resultados tangíveis e duradouros e impacto
+                financeiro e emocional. Os nossos conhecimentos combinados da
+                psicologia e prática clínica formam a base sólida para os nossos
+                serviços de consultadoria e treino.
+              </p>
+            </div>
+            <div className="arrow-max-section">
+              <img src={ArrowMax} alt="arrow-max" className="arrow-max" />
+            </div>
           </div>
           <div>
-            <p>
-              Visamos capacitar a pessoa nas suas relações interpessoais,
-              criando mudanças com resultados tangíveis e duradouros e impacto
-              financeiro e emocional. Os nossos conhecimentos combinados da
-              psicologia e prática clínica formam a base sólida para os nossos
-              serviços de consultadoria e treino.
-            </p>
+            <img
+              src={TranslucidoPic}
+              alt="Translucido-pic"
+              className="Translucido-pic"
+            />
           </div>
-          <div>
-            <img src={ArrowMax} alt="arrow-max" className="arrow-max" />
-          </div>
-        </div>
-        <div>
-          <img
-            src={TranslucidoPic}
-            alt="Translucido-pic"
-            className="Translucido-pic"
-          />
         </div>
       </div>
 
@@ -125,11 +128,11 @@ const WhoWeArePage = () => {
           <img
             src={doubleQuotes}
             alt="double-quotes"
-            className="double-quotes"
+            className="double-quotes double-quotes-first"
           />
         </div>
         <div>
-          <h2>
+          <h2 className="who-third-container-h2">
             Profissionalmente, crescida na área social. Pessoalmente, em
             movimentos de promoção do trabalho em equipa, do respeito pelo outro
             e pelo ambiente.
@@ -184,7 +187,7 @@ const WhoWeArePage = () => {
         <div>
           <h1>Os Nossos Valores</h1>
         </div>
-        <div>
+        <div className="list-item-main-container">
           <div className="list-item-container">
             <div>
               <img src={ListItem} alt="List-item" className="List-item" />

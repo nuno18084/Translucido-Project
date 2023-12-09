@@ -3,3 +3,14 @@
   font-weight: 700;
   font-size: 40px;
 }
+
+@media only screen and (min-width: 700px) {
+  .marquee-container {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .marquee-word {
+    font-size: 120px;
+    margin-right: 100px;
+  }
+}

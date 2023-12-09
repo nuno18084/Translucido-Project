@@ -183,9 +183,13 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 0px;
   }
   .footer-pages p {
     margin-bottom: 15px;
     font-size: 12px;
+  }
+  .footer-icon {
+    padding-bottom: 20px;
   }
 }
