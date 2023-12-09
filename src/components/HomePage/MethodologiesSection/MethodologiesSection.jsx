@@ -104,7 +104,7 @@ export default function MethodologiesSection() {
   return (
     <div className="methodologies-container">
       <div className="methodologies-main-section">
-        <h1>Metedologias</h1>
+        <h1>Metodologias</h1>
       </div>
       <Swiper
         onSwiper={setSwiperRef}

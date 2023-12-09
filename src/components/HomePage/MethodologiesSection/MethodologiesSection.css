@@ -68,6 +68,7 @@ body {
   border-bottom: 2px solid var(--white-color);
   width: 280px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .methodologies-container {
