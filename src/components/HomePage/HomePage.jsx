@@ -41,27 +41,19 @@ const HomePage = () => {
             <TypedPhrase />
           </div>
         </div>
-      </div>
-      <div>
-        <img src={ScrollDown} alt="scroll-down" className="scroll-down" />
-      </div>
-      <div>
         <div>
-          <img
-            src={Rectangle}
-            alt="rectangle"
-            className="rectangle-eclise-toggle"
-          />
+          <img src={ScrollDown} alt="scroll-down" className="scroll-down" />
+        </div>
+      </div>
+      <div className="home-who-we-are-section-container">
+        <div>
+          <img src={Rectangle} alt="rectangle" className="rectangle-toggle" />
         </div>
         <div>
           <WhoWeAreSection />
         </div>
         <div>
-          <img
-            src={Eclipse}
-            alt="eclipse"
-            className="rectangle-eclise-toggle"
-          />
+          <img src={Eclipse} alt="eclipse" className="eclise-toggle" />
         </div>
       </div>
       <div>
