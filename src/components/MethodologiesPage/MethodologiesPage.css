@@ -136,7 +136,7 @@
   .circle-image {
     position: absolute;
     width: 589px;
-    height: 900px;
+    height: 920px;
   }
   .landing-image {
     position: absolute;
@@ -167,7 +167,7 @@
     padding-top: 100px;
     padding-bottom: 100px;
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: space-around;
   }
   .imersao-methodology-section {
@@ -216,6 +216,64 @@
     width: 350px;
   }
   .sociodrama-methodology-text-exception p {
+    width: 650px;
+    font-size: 16px;
+  }
+
+  .story-methodology {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .exception-image {
+    width: 450px !important;
+    height: 550px;
+  }
+  .story-methodology-text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+  }
+  .sociodrama-methodology-text h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    width: 350px;
+  }
+  .sociodrama-methodology-text p {
+    width: 650px;
+    font-size: 16px;
+  }
+
+  .design-methodology {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
+  .exception-image {
+    width: 450px !important;
+    height: 550px;
+  }
+  .story-methodology-text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+  }
+  .sociodrama-methodology-text h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    width: 350px;
+  }
+  .sociodrama-methodology-text p {
     width: 650px;
     font-size: 16px;
   }

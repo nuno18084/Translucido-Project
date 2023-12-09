@@ -148,6 +148,7 @@
     display: block;
     width: 137px;
     height: 137px;
+    cursor: pointer;
   }
   .footer-logo-container img {
     width: 300px !important;

@@ -120,11 +120,11 @@ const MethodologiesPage = () => {
           </div>
         </div>
 
-        <div className="">
+        <div className="story-methodology">
           <div>
             <img src={storytelling} alt="story" className="exception-image" />
           </div>
-          <div className="sociodrama-methodology-text">
+          <div className="sociodrama-methodology-text story-methodology-text">
             <div>
               <h2>Story telling</h2>
             </div>

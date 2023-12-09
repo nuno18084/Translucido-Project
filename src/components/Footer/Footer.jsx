@@ -101,7 +101,12 @@ const Footer = () => {
     <>
       <div className="footer-main-container">
         <div>
-          <img src={FooterArrow} alt="footer-arrow" className="footer-arrow" />
+          <img
+            onClick={handleLinkClick}
+            src={FooterArrow}
+            alt="footer-arrow"
+            className="footer-arrow"
+          />
         </div>
         <div className="footer-logo-container">
           <Link
