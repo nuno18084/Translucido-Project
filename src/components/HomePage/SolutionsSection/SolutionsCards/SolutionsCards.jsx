@@ -41,8 +41,8 @@ const cardsData = [
   },
 ];
 
-const Card = ({ data }) => (
-  <div className="card-container">
+const Card = ({ data, isWide }) => (
+  <div className={`card-container ${isWide ? "wide-card" : ""}`}>
     <div>
       <img className="icon" src={data.icon} alt="icon" />
     </div>
@@ -61,8 +61,8 @@ const Card = ({ data }) => (
 
 const SolutionsCards = () => (
   <div className="cards-container">
-    {cardsData.map((card) => (
-      <Card key={card.id} data={card} />
+    {cardsData.map((card, id) => (
+      <Card key={card.id} data={card} isWide={id === 1} />
     ))}
   </div>
 );
