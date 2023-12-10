@@ -43,7 +43,7 @@
     text-align: left;
     font-size: 32px;
     padding-bottom: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 18px;
   }
   .solutions-main-container p {
     font-weight: 400;
@@ -52,6 +52,6 @@
     color: var(--white-color);
     line-height: 30px;
     width: 650px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
