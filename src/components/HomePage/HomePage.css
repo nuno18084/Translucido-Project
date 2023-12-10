@@ -145,8 +145,8 @@
   .eclise-toggle {
     display: block;
     position: absolute;
-    right: -350px;
-    transform: translateY(-67%) !important;
+    right: -380px;
+    transform: translateY(-67%) rotate(30deg) !important;
     filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
   }
 }

@@ -33,7 +33,7 @@ const WhoWeAreSection = () => {
         </div>
         <div>
           <Link to="/agendar" onClick={handleLinkClick}>
-            <button className="who-we-are-btn-right">Agender Reunião</button>
+            <button className="who-we-are-btn-right">Agendar Reunião</button>
           </Link>
         </div>
       </div>

@@ -10,10 +10,11 @@
 .solutions-main-container h1 {
   color: var(--white-color);
   font-weight: 700;
-  font-size: 30px;
+  font-size: 26px;
   padding-bottom: 15px;
   border-bottom: 2px solid var(--white-color);
   width: 280px;
+  text-transform: uppercase;
   text-align: center;
 }
 
@@ -25,4 +26,7 @@
   line-height: 21px;
   width: 332px;
   margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 700px) {
 }

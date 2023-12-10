@@ -25,7 +25,7 @@ const WhoWeArePage = () => {
               A Translúcido dedica-se exclusivamente à empatia, à sua explicação
               científica e às suas potencialidades, promovendo relações
               empáticas, em diferentes ambientes, por meio de treino e
-              consultadoria. Visamos capacitar a pessoa nas suas relações
+              consultoria. Visamos capacitar a pessoa nas suas relações
               interpessoais.
             </p>
           </div>
@@ -97,7 +97,7 @@ const WhoWeArePage = () => {
                 exclusivamente à capacidade empática, à sua explicação
                 científica e às suas potencialidades, promovendo relações
                 empáticas, em diferentes ambientes, por meio de treino e
-                consultadoria.{" "}
+                consultoria.{" "}
               </p>
             </div>
             <div>
@@ -156,9 +156,9 @@ const WhoWeArePage = () => {
               motivação constante. É a conexão entre as pessoas que faz os
               projetos avançarem, que provoca mudanças desejáveis. A área social
               tem na sua intervenção objetos de necessidades múltiplas, onde as
-              funçõesdos profissionais interventivos se interligam e se
+              funções dos profissionais interventivos se interligam e se
               influenciam. O nosso trabalho ia para lá da intervenção
-              psicológica, mas também se centrava na consultadoria e promoção de
+              psicológica, mas também se centrava na consultoria e promoção de
               um ambiente coeso entre a equipa. Ações uniformes aumentavam
               exponencialmente o sucesso do nosso público-alvo.{" "}
             </p>
@@ -211,7 +211,7 @@ const WhoWeArePage = () => {
               />
             </div>
             <div className="list-item-h2-p">
-              <h2>AUTOCONHECIMENTO</h2>
+              <h2>Autoconhecimento</h2>
               <p>Promoção de autoconhecimento, provocando insight.</p>
             </div>
           </div>
@@ -225,7 +225,7 @@ const WhoWeArePage = () => {
               />
             </div>
             <div className="list-item-h2-p">
-              <h2>HUMANIZAÇÃO</h2>
+              <h2>Humanização</h2>
               <p>
                 Humanizar as relações e interações melhora o bem-estar intra e
                 interpessoal.
@@ -242,7 +242,7 @@ const WhoWeArePage = () => {
               />
             </div>
             <div className="list-item-h2-p">
-              <h2>AUTOPRESERVAÇÃO</h2>
+              <h2>Autopreservação</h2>
               <p>
                 Autopreservação, valorizando a individualidade e ajudando a
                 estabelecer limites e barreiras pessoais protetoras.

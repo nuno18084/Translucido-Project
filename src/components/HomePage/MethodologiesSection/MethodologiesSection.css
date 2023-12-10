@@ -63,7 +63,7 @@ body {
 .methodologies-main-section h1 {
   color: var(--white-color);
   font-weight: 700;
-  font-size: 30px;
+  font-size: 26px;
   padding-bottom: 15px;
   border-bottom: 2px solid var(--white-color);
   width: 280px;
@@ -84,8 +84,10 @@ body {
 }
 
 .methodologies-cards h1 {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 20px;
+  text-align: left;
+  padding-top: 2%;
 }
 
 .methodologies-cards p {
@@ -144,4 +146,60 @@ body {
 .custom-pagination-dot.active,
 .custom-pagination-dot:hover {
   background-color: var(--white-color);
+}
+
+@media only screen and (min-width: 700px) {
+  .methodologies-main-section h1 {
+    padding-top: 30px;
+    font-size: 32px;
+    width: 300px;
+  }
+  .swiper {
+    width: 100%;
+    height: 530px;
+    margin: 20px auto;
+  }
+  .methodologies-container {
+    height: 110vh;
+  }
+  .swiper-slide-active {
+    width: 80%;
+  }
+  .mySwiper {
+    width: 100%;
+  }
+  .methodologies-cartoons {
+    position: absolute;
+    bottom: 10px;
+    right: 55px;
+    transform: translate(10%, 0) !important;
+    z-index: 1;
+    width: 300px;
+  }
+  .sociodrama-image {
+    position: absolute;
+    bottom: 10px;
+    right: 55px;
+    transform: translate(10%, 15%) !important;
+    z-index: 1;
+    width: 300px;
+  }
+  .methodologies-cards h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  .methodologies-cards p {
+    font-size: 16px;
+    margin-bottom: 32px;
+    text-align: left;
+  }
+  .custom-pagination-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--white-color);
+    margin: 20px 5px !important;
+    cursor: pointer;
+  }
 }

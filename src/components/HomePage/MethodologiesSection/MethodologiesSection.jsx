@@ -122,9 +122,18 @@ export default function MethodologiesSection() {
         onSlideChange={handleSlideChange} // Add this to track slide changes
         modules={[Pagination, Navigation]}
         className="mySwiper"
+        breakpoints={{
+          700: {
+            slidesPerView: 2.5,
+            spaceBetween: 10, // Adjust as needed
+          },
+        }}
       >
         <SwiperSlide
-          style={{ transform: activeCard === 0 ? "scale(1)" : "scale(0.9)" }}
+          style={{
+            transform: activeCard === 0 ? "scale(1)" : "scale(0.85)",
+            filter: activeCard !== 0 ? "brightness(80%)" : "none",
+          }}
         >
           <div className="methodologies-cards">
             <div>
@@ -152,7 +161,10 @@ export default function MethodologiesSection() {
         </SwiperSlide>
 
         <SwiperSlide
-          style={{ transform: activeCard === 1 ? "scale(1)" : "scale(0.9)" }}
+          style={{
+            transform: activeCard === 1 ? "scale(1)" : "scale(0.85)",
+            filter: activeCard !== 1 ? "brightness(80%)" : "none",
+          }}
         >
           <div className="methodologies-cards">
             <div>
@@ -172,13 +184,16 @@ export default function MethodologiesSection() {
                 </div>
               </Link>
             </div>
-            <div className="methodologies-cartoons">
+            <div className="methodologies-cartoons sociodrama-image">
               <img src={Sociodrama} alt="test" />
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide
-          style={{ transform: activeCard === 2 ? "scale(1)" : "scale(0.9)" }}
+          style={{
+            transform: activeCard === 2 ? "scale(1)" : "scale(0.85)",
+            filter: activeCard !== 2 ? "brightness(80%)" : "none",
+          }}
         >
           <div className="methodologies-cards">
             <div>
@@ -205,7 +220,10 @@ export default function MethodologiesSection() {
           </div>
         </SwiperSlide>
         <SwiperSlide
-          style={{ transform: activeCard === 3 ? "scale(1)" : "scale(0.9)" }}
+          style={{
+            transform: activeCard === 3 ? "scale(1)" : "scale(0.85)",
+            filter: activeCard !== 3 ? "brightness(80%)" : "none",
+          }}
         >
           <div className="methodologies-cards">
             <div>
