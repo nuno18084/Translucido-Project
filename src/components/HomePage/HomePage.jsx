@@ -6,7 +6,6 @@ import Image3 from "../../Assets/HomePage/LandingAssets/LandingPageImages/Soft s
 import Image2 from "../../Assets/HomePage/LandingAssets/LandingPageImages/diferente de simpatia.png";
 import Image4 from "../../Assets/HomePage/LandingAssets/LandingPageImages/perguntar se esta tudo bem e t er tempo para ouvir um não.png";
 import Image1 from "../../Assets/HomePage/LandingAssets/LandingPageImages/permitir trabalho híbrido.jpg";
-import backgroundRoller from "../../Assets/HomePage/LandingAssets/LandingPageImages/ImagesBackground.png";
 import TypedPhrase from "./Typed/Typed";
 import ScrollDown from "../../Assets/HomePage/LandingAssets/ScrollDown/ScrollDownBtn.png";
 import Rectangle from "../../Assets/HomePage/LandingAssets/WhoWeAreFigs/RectangleLeft.png";
@@ -25,11 +24,6 @@ const HomePage = () => {
       <div className="home-page-image-typed">
         <div className="image-slider-container">
           <ImageSlider images={rearrangedImages} className="images-roller" />
-          <img
-            className="images-background"
-            src={backgroundRoller}
-            alt="images-background"
-          />
         </div>
         <div className="home-page-phrase-typed-main-section">
           <div className="home-page-phrase">
