@@ -1,11 +1,12 @@
 .image-slider-container {
   background-image: url(../../Assets/HomePage/LandingAssets/LandingPageImages/ImagesBackground.png);
-  background-size: 100% 100%;
-  background-position: center center;
+  background-size: 90% 90%;
+  /* background-position: center center; */
   position: relative;
   height: 300px;
   overflow: hidden;
   margin-bottom: 45px;
+  background-repeat: no-repeat;
 }
 
 .slider-and-phrase {
