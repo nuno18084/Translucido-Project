@@ -75,7 +75,7 @@
   }
   .slider-and-phrase-h1 {
     font-size: 60px;
-    width: 400px;
+    width: 380px;
     line-height: 50px;
     /* padding-top: 20px; */
   }
@@ -88,9 +88,9 @@
     gap: 50px;
   }
   .typed-phrase-component {
-    font-size: 50px;
+    font-size: 40px;
     line-height: 80px !important;
-    width: 700px;
+    width: 600px !important;
     height: 100%;
   }
   .typed-phrase-h1 {
@@ -125,16 +125,16 @@
   .rectangle-toggle {
     display: block;
     position: absolute;
-    left: -150px;
-    height: 850px;
-    transform: translateY(-70%) !important;
+    left: -15em;
+    height: 650px;
+    transform: translateY(-40em) rotate(15deg) !important;
     filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
   }
   .eclise-toggle {
     display: block;
     position: absolute;
-    right: -380px;
-    transform: translateY(-67%) rotate(30deg) !important;
+    right: -35em;
+    transform: translateY(-40em) rotate(30deg) !important;
     filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
   }
 }
