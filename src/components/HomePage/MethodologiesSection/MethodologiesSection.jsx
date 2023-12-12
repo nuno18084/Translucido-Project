@@ -199,9 +199,8 @@ export default function MethodologiesSection() {
             <div>
               <h1>Story telling</h1>
               <p>
-                Criar ambientes ilusórios para estimular os sentidos, aprofundar
-                debates e despertar empatia ao compreender processos
-                neurológicos subjacentes.
+                Partilhar histórias para maior identificação, captar a atenção e
+                elevar o potencial de aprendizagem.
               </p>
               <Link
                 to="/metodologias"
@@ -229,9 +228,8 @@ export default function MethodologiesSection() {
             <div>
               <h1>Design thinking</h1>
               <p>
-                Criar ambientes ilusórios para estimular os sentidos, aprofundar
-                debates e despertar empatia ao compreender processos
-                neurológicos subjacentes.
+                Pensar de forma criativa para estimular a tomada de decisão e a
+                procura por conhecimento.
               </p>
               <Link
                 to="/metodologias"

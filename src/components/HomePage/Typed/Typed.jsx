@@ -11,8 +11,8 @@ function TypedPhrase() {
       strings: [
         "permitir trabalho híbrido.",
         "distinta de simpatia.",
-        "uma soft skill a desenvolver.",
-        "perguntar se está tudo bem.",
+        "chorar com um filme.",
+        "responder a uma mensagem.",
       ],
       typeSpeed: 100,
       loop: true,

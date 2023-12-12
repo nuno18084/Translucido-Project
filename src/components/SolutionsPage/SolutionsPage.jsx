@@ -48,15 +48,8 @@ const SolutionsPage = () => {
       <div className="solutions-second-container">
         <div>
           <p>
-            Transforme o seu ambiente e as relações, com a empatia como
-            catalisador de mudanças positivas.
-          </p>
-        </div>
-        <div>
-          <p>
-            Dedicamo-nos a aprimorar o ambiente e cultura da sua organização, a
-            fim de que todos atinjam níveis positivos de bem-estar e satisfação,
-            desejáveis à persecução dos objetivos a que se propõem.
+            Transforme o seu ambiente e as relações, com a{" "}
+            <strong>empatia como catalisador</strong> de mudanças positivas.
           </p>
         </div>
         <div>
@@ -90,8 +83,8 @@ const SolutionsPage = () => {
             <div>
               <p>
                 Atuamos na <strong>gestão e desenvolvimento de projetos</strong>
-                , adicionando empatia à sua solução. Usamos metodologia de
-                design thinking com recurso ao mapa empático.
+                , adicionando empatia à sua solução. Utilizamos uma metodologia
+                combinada das melhores estratégias de impacto.
               </p>
             </div>
             <div>
@@ -127,31 +120,26 @@ const SolutionsPage = () => {
           <div>
             <div>
               <p>
-                A partir de uma metodologia combinada com dinâmicas de imersão,
-                sociodrama, design thinking, storytelling, permitimos aos
-                formandos desenvolver a competência empática.
+                <strong>12 horas de formação</strong> presencial ou à distância
+                e <strong>6 horas de plano de treino especializado</strong>,
+                para promover o insight e capacitar os formandos como agentes
+                ativos.
               </p>
             </div>
             <div>
               <p>
-                Com 12 horas de formação presencial e 6 horas de plano de treino
-                especializado, promovemos o insight e capacitamos os formandos
-                para serem agentes ativos, quer por serem capazes de comunicarem
-                empaticamente e diminuir os conflitos interpessoais, quer pelo
-                desenvolvimento de projeto empático.
+                Destinada a <strong>toda e qualquer pessoa</strong>, esta
+                formação capacita para o{" "}
+                <strong>uso da capacidade empática</strong>. No final será capaz
+                de reconhecer o processo neuropsicológico da empatia, conhecer
+                estratégias de comunicação empática e de desenvolver e gerir um
+                projeto empático.
               </p>
             </div>
             <div>
               <p>
-                O treino enquanto via para o desenvolvimento da competência
-                empática, exige consistência e continuidade para que possa se
-                desenvolver.
-              </p>
-            </div>
-            <div>
-              <p>
-                É ainda produzido um relatório de avaliação empática, dando
-                feedback ao cliente.
+                O treino, enquanto vi para o desenvolvimento da competência
+                empática, é realizado como parte integrante da aprendizagem.
               </p>
             </div>
           </div>

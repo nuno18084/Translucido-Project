@@ -303,7 +303,7 @@ body {
   .translucido-h1 {
     font-size: 32px;
     width: 350px;
-    margin-bottom: 80px;
+    margin-bottom: 0;
   }
   .who-p-image-section {
     display: flex;
@@ -331,8 +331,7 @@ body {
   .arrow-max {
     display: block;
     position: relative;
-    height: 800px;
-    height: 680px;
+    height: 750px;
     z-index: -1 !important;
   }
   .who-third-container {
