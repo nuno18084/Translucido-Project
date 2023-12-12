@@ -220,9 +220,10 @@ body {
   }
   .solutions-forth-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row-reverse;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    flex-direction: row;
+    gap: 15%;
   }
   .solutions-forth-container img {
     width: auto;
@@ -230,16 +231,17 @@ body {
   }
   .solutions-forth-container-left {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: center;
     flex-direction: column;
   }
   .solutions-forth-container-left h1 {
-    text-align: left;
+    text-align: right;
     font-size: 30px;
   }
   .solutions-forth-container-left p {
-    width: 70%;
+    width: 100%;
     font-size: 16px;
+    text-align: right;
   }
 }
