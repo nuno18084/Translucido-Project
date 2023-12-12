@@ -11,6 +11,7 @@ import Eclipse from "../../Assets/WhoWeAreAssets/WhoEllipse.png";
 import ListItem from "../../Assets/WhoWeAreAssets/ListItem.png";
 import WordSlider from "./WordSlider/WordSlider";
 import Marquee from "react-fast-marquee";
+import TextTyped from "../HomePage/Typed/TextTransition";
 
 const WhoWeArePage = () => {
   return (
@@ -254,6 +255,9 @@ const WhoWeArePage = () => {
             Humanizar as relações formais e potenciar as relações informais.
           </h1>
         </div>
+      </div>
+      <div className="who-eighth-container">
+        <TextTyped />
       </div>
     </>
   );
