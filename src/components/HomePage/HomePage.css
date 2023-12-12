@@ -90,7 +90,7 @@
   .typed-phrase-component {
     font-size: 40px;
     line-height: 80px !important;
-    width: 600px !important;
+    /* width: 600px !important; */
     height: 100%;
   }
   .typed-phrase-h1 {

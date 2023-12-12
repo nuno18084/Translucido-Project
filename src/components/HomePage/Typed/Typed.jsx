@@ -29,7 +29,7 @@ function TypedPhrase() {
   return (
     <div
       className="typed-phrase-component"
-      style={{ display: "inline-block", height: "3em", overflow: "hidden" }}
+      style={{ display: "inline-block", height: "3.7em", overflow: "hidden" }}
     >
       <span className="typed-phrase-component" ref={el} />
     </div>
