@@ -12,6 +12,7 @@ import ListItem from "../../Assets/WhoWeAreAssets/ListItem.png";
 import WordSlider from "./WordSlider/WordSlider";
 import Marquee from "react-fast-marquee";
 import TextTyped from "../HomePage/Typed/TextTransition";
+import EmpathySection from "../HomePage/EmpathySection/EmpathySection";
 
 const WhoWeArePage = () => {
   return (
@@ -257,7 +258,45 @@ const WhoWeArePage = () => {
         </div>
       </div>
       <div className="who-eighth-container">
-        <TextTyped />
+        <div>
+          <h1 className="who-eighth-container-h1">Empatia</h1>
+        </div>
+        <div>
+          <h2 className="who-eighth-container-h2">
+            Empatia é um <strong>solvente universal</strong>
+          </h2>
+        </div>
+        <div>
+          <p className="who-eighth-container-p">
+            Definimos empatia enquanto construto multidimensional
+          </p>
+        </div>
+        <div>
+          <EmpathySection />
+        </div>
+        <div>
+          <h3 className="empathy-map-container-h3">
+            A forma como a pessoa percebe e pensa o outro é mediada pela relação
+            e contexto social.
+          </h3>
+        </div>
+        <div>
+          <div>
+            <h2 className="empathy-map-container-h2">
+              Pessoas empáticas são pessoas mais!
+            </h2>
+          </div>
+        </div>
+        <div className="empathy-map-last-container">
+          <div>
+            <h1>Mais</h1>
+          </div>
+          <div>
+            <h1>
+              <TextTyped />
+            </h1>
+          </div>
+        </div>
       </div>
     </>
   );

@@ -2,11 +2,11 @@ import React from "react";
 import TextTransition, { presets } from "react-text-transition";
 
 const TEXTS = [
-  "saudáveis!",
-  "competentes!",
-  "sensíveis!",
-  "felizes!",
-  "produtivas!",
+  "saudáveis",
+  "competentes",
+  "sensíveis",
+  "felizes",
+  "produtivas",
 ];
 
 const TextTyped = () => {
