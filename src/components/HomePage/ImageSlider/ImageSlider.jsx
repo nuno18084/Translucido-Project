@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import "./ImageSlider.css";
 
-const ImageSlider = ({ images, transitionDuration = 6000 }) => {
+const ImageSlider = ({ images, transitionDuration = 5500 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
