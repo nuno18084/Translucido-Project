@@ -43,7 +43,7 @@ const Footer = () => {
 
   const handleSolucoesClick = () => {
     window.scrollTo({
-      top: 1800,
+      top: 2200,
       behavior: "smooth",
     });
   };
@@ -85,7 +85,7 @@ const Footer = () => {
 
   const handleFormacaoClick = () => {
     window.scrollTo({
-      top: 2250,
+      top: 1900,
       behavior: "smooth",
     });
   };
