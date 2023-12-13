@@ -293,6 +293,17 @@ body {
   padding-right: 5%;
 }
 
+.empathy-map-last-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.empathy-map-last-container h1 {
+  font-size: 28px;
+}
+
 @media only screen and (min-width: 700px) {
   .who-main-container {
     display: flex;
@@ -457,7 +468,7 @@ body {
   }
   .who-eighth-container-h2 {
     font-size: 30px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
   }
   .who-eighth-container-p {
     font-size: 24px;
@@ -478,6 +489,13 @@ body {
     font-size: 24px;
   }
   .empathy-map-last-container h1 {
-    font-size: 40px;
+    font-size: 60px;
+  }
+  .empathy-map-last-container {
+    display: flex;
+    align-items: first baseline !important;
+    justify-content: flex-start !important;
+    flex-direction: row;
+    gap: 20px !important;
   }
 }

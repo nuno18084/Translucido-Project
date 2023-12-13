@@ -1,10 +1,10 @@
 .image-slider {
   position: relative;
-  height: 215px;
-  width: 90%;
-  margin-left: 3%;
+  height: 250px;
+  width: 100%;
+  margin-left: 5%;
   margin-right: 3%;
-  margin-top: 5%;
+  margin-top: 6%;
   margin-bottom: 5%;
   padding-top: 4%;
 }
@@ -25,8 +25,10 @@
 @media only screen and (min-width: 700px) {
   .image-slider {
     position: relative;
-    height: 370px;
-    width: 660px;
+    height: 370px !important;
+    width: 660px !important;
+    margin-left: 3%;
+    margin-top: 5%;
   }
   .slider-image {
     padding-left: 3%;

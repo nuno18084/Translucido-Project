@@ -21,11 +21,11 @@ const TextTyped = () => {
   }, []);
 
   return (
-    <span>
+    <h1>
       <TextTransition springConfig={presets.wobbly}>
         {TEXTS[index % TEXTS.length]}
       </TextTransition>
-    </span>
+    </h1>
   );
 };
 

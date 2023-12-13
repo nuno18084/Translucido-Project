@@ -13,7 +13,7 @@
   padding-right: 10%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end !important;
   flex-direction: column;
   background-color: var(--white-color);
   margin-bottom: 40px;
@@ -65,20 +65,20 @@
     margin-bottom: 80px;
   }
   .empathy-map-section {
-    padding-top: 8%;
+    padding-top: 3%;
     padding-bottom: 8%;
     padding-left: 5%;
     padding-right: 5%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start !important;
     flex-direction: column;
     background-color: var(--white-color);
     margin-bottom: 40px;
     text-align: center;
     border-radius: 10px;
     width: 30% !important;
-    height: 40svh;
+    height: 40vh;
     filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
   }
   .empathy-map-container img {

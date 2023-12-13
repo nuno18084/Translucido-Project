@@ -294,9 +294,9 @@ const WhoWeArePage = () => {
             <h1>Mais</h1>
           </div>
           <div>
-            <h1>
+            <div>
               <TextTyped />
-            </h1>
+            </div>
           </div>
         </div>
       </div>
