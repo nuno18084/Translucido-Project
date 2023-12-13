@@ -15,14 +15,14 @@ const TextTyped = () => {
   React.useEffect(() => {
     const intervalId = setInterval(
       () => setIndex((index) => index + 1),
-      2000 // every 2 seconds
+      2500 // every 2 seconds
     );
     return () => clearTimeout(intervalId);
   }, []);
 
   return (
     <h1>
-      <TextTransition springConfig={presets.wobbly}>
+      <TextTransition springConfig={presets.default}>
         {TEXTS[index % TEXTS.length]}
       </TextTransition>
     </h1>
