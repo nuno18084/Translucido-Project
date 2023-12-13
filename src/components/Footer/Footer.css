@@ -168,7 +168,7 @@
     justify-content: flex-start;
     flex-direction: row;
     padding: 5% 5%;
-    gap: 10%;
+    gap: 3%;
     padding-bottom: 50px;
   }
   .footer-mail-number-section {
@@ -183,6 +183,9 @@
     justify-content: center;
     flex-direction: row;
     padding-top: 100px;
+  }
+  .footer-pages-section h5 {
+    width: 170px;
   }
   .footer-pages h5 {
     text-align: left;

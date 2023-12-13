@@ -157,7 +157,7 @@ const Footer = () => {
               </Link>
             </div>
             <Link
-              to="/"
+              to="/quem-somos"
               onClick={handleQuemSomosClick}
               style={{ textDecoration: "none" }}
             >
@@ -261,6 +261,30 @@ const Footer = () => {
                 <p>Formação</p>
               </div>
             </Link>
+          </div>
+
+          <div className="footer-pages">
+            <div>
+              <Link
+                to="/quem-somos"
+                onClick={handleLinkClick}
+                style={{ textDecoration: "none" }}
+              >
+                <h5>Quem Somos</h5>
+              </Link>
+            </div>
+          </div>
+
+          <div className="footer-pages">
+            <div>
+              <Link
+                to="/agendar"
+                onClick={handleLinkClick}
+                style={{ textDecoration: "none" }}
+              >
+                <h5>Agendar</h5>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
