@@ -164,7 +164,7 @@ body {
 
 .who-forth-container-p {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   gap: 20px;
