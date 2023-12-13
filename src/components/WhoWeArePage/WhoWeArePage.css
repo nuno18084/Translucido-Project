@@ -147,8 +147,10 @@ body {
 }
 
 .double-quotes-last {
+  position: absolute;
+  right: 5% !important;
   /* transform: scaleY(-1); */
-  transform: translateX(560%);
+  /* transform: translateX(560%); */
 }
 
 .who-forth-container {
@@ -304,7 +306,7 @@ body {
   font-size: 28px;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 1024px) {
   .who-main-container {
     display: flex;
     align-items: center;

@@ -57,7 +57,7 @@
   display: none;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 1024px) {
   .home-page-image-typed {
     display: flex;
     align-items: center !important;

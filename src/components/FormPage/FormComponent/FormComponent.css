@@ -110,7 +110,7 @@
   color: rgb(152, 152, 152) !important;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 1024px) {
   .form-main-container-2 {
     display: flex;
     align-items: flex-end;

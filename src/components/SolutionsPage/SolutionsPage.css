@@ -154,7 +154,7 @@ body {
   margin-bottom: 20px;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 1024px) {
   .solutions-h1 {
     font-size: 60px !important;
   }
