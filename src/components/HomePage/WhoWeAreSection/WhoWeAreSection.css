@@ -89,7 +89,7 @@
   transform: scale(0.95);
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 1024px) {
   .who-we-are-btns {
     padding-bottom: 100px;
   }

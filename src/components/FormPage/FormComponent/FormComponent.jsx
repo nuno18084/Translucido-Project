@@ -82,9 +82,10 @@ export const FormComponent = () => {
       <div className="form-main-container-2">
         <div className="form-principal-container">
           <div className={`form-input-label ${!isFormValid ? "invalid" : ""}`}>
-            <label>Nome:</label>
+            <label htmlFor="user_name">Nome:</label>
             <input
               type="text"
+              id="user_name"
               name="user_name"
               value={name}
               onChange={handleInputChange}
@@ -92,9 +93,10 @@ export const FormComponent = () => {
             />
           </div>
           <div className={`form-input-label ${!isFormValid ? "invalid" : ""}`}>
-            <label>Email:</label>
+            <label htmlFor="user_email">Email:</label>
             <input
               type="email"
+              id="user_email"
               name="user_email"
               value={email}
               onChange={handleInputChange}
@@ -104,11 +106,12 @@ export const FormComponent = () => {
             />
           </div>
           <div className={`form-input-label ${!isFormValid ? "invalid" : ""}`}>
-            <label>Mensagem:</label>
+            <label htmlFor="message">Mensagem:</label>
             <textarea
               className={`form-input form-message-area ${
                 !isFormValid && !message ? "invalid" : ""
               }`}
+              id="message"
               name="message"
               value={message}
               onChange={handleInputChange}

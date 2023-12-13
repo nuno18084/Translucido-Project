@@ -114,6 +114,10 @@ body {
   width: 150px;
 }
 
+.sociodrama-image {
+  transform: translate(35%, 10%) !important;
+}
+
 .swiper-slide {
   align-items: normal;
   border-radius: 3px;

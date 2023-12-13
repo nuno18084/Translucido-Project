@@ -146,15 +146,21 @@
   cursor: pointer;
 }
 
-@media only screen and (min-width: 1024px) {
+@media screen and (max-width: 1020px) {
+  .footer-arrow {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
   .footer-arrow {
     display: block;
-    width: 137px;
-    height: 137px;
+    width: 90%;
+    height: 90%;
     cursor: pointer;
   }
   .footer-logo-container img {
-    width: 300px !important;
+    width: 80% !important;
   }
   .footer-main-container {
     display: flex;
