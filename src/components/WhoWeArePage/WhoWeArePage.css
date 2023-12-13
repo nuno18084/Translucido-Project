@@ -275,7 +275,7 @@ body {
   padding-bottom: 15px;
   margin-bottom: 50px;
   text-transform: uppercase;
-  color: var(--white-color);
+  color: #1c478f;
 }
 
 .who-eighth-container-p {
@@ -447,5 +447,33 @@ body {
   .who-seventh-container h1 {
     font-size: 40px;
     margin-bottom: 30px;
+  }
+  .who-eighth-container {
+    padding-top: 100px;
+  }
+  .who-eighth-container-h1 {
+    font-size: 2em;
+    margin-bottom: 100px;
+  }
+  .who-eighth-container-h2 {
+    font-size: 30px;
+    margin-bottom: 150px;
+  }
+  .who-eighth-container-p {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .empathy-map-container-h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+  .empathy-map-container-h2 {
+    font-size: 24px;
+  }
+  .empathy-map-last-container h1 {
+    font-size: 40px;
   }
 }

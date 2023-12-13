@@ -1,7 +1,7 @@
 .marquee-word {
   margin-right: 30px;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 3em;
 }
 
 @media only screen and (min-width: 700px) {
@@ -10,7 +10,7 @@
     padding-bottom: 40px;
   }
   .marquee-word {
-    font-size: 120px;
-    margin-right: 100px;
+    font-size: 7em;
+    margin-right: 1em;
   }
 }

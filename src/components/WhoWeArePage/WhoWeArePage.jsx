@@ -263,7 +263,7 @@ const WhoWeArePage = () => {
         </div>
         <div>
           <h2 className="who-eighth-container-h2">
-            Empatia é um <strong>solvente universal</strong>
+            Empatia é um solvente universal
           </h2>
         </div>
         <div>
