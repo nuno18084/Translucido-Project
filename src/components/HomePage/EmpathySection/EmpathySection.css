@@ -54,3 +54,34 @@
   color: var(--white-color);
   width: 100% !important;
 }
+
+@media only screen and (min-width: 700px) {
+  .empathy-map-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .empathy-map-section {
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--white-color);
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 10px;
+    width: 30% !important;
+    height: 40svh;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
+  }
+  .empathy-map-container img {
+    width: 40%;
+    margin-bottom: 30px;
+  }
+}

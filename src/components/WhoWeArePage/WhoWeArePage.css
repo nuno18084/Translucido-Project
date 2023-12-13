@@ -254,7 +254,7 @@ body {
 }
 
 .who-eighth-container {
-  background-color: #1c478f;
+  background-color: #4287fc;
   padding-top: 80px;
   padding-bottom: 80px;
   padding-left: 5%;
@@ -283,6 +283,14 @@ body {
   padding-bottom: 15px;
   margin-bottom: 50px;
   color: var(--white-color);
+}
+
+.who-ninth-container {
+  background-color: #1c478f;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 @media only screen and (min-width: 700px) {

@@ -280,6 +280,8 @@ const WhoWeArePage = () => {
             e contexto social.
           </h3>
         </div>
+      </div>
+      <div className="who-ninth-container">
         <div>
           <div>
             <h2 className="empathy-map-container-h2">
