@@ -14,7 +14,13 @@ const EmpathyMap = ({ data }) => {
             alt={item.title}
             sizes={20}
             style={
-              index === data.length - 1 ? { width: "25%", height: "65%" } : null
+              index === data.length - 1
+                ? { width: "25%", height: "48%" }
+                : index === data.length - 2
+                ? { width: "40%" }
+                : index === data.length - 3
+                ? { width: "40%" }
+                : null
             }
           />
           <h2>{item.title}</h2>

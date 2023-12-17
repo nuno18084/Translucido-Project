@@ -21,7 +21,7 @@ const TextTyped = () => {
   }, []);
 
   return (
-    <h1>
+    <h1 style={{ height: "42.5px" }}>
       <TextTransition springConfig={presets.default}>
         {TEXTS[index % TEXTS.length]}
       </TextTransition>
