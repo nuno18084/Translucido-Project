@@ -10,7 +10,7 @@ body {
 
 .solutions-main-container-2 {
   padding-top: 130px;
-  height: 100svh;
+  height: 95svh;
   margin-bottom: 0;
   background-color: #4287fc;
   z-index: 0;
@@ -24,7 +24,7 @@ body {
 
 .solutions-h1 {
   border: none !important;
-  color: #1c478f !important;
+  color: var(--white-color) !important;
   font-weight: 700 !important;
   font-size: 40px !important;
   margin-bottom: 30px;
@@ -41,7 +41,7 @@ body {
 .solutions-cartoon {
   width: 280px;
   height: auto;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .solutions-btn {
@@ -197,7 +197,7 @@ body {
   }
   .solutions-third-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: row-reverse;
   }

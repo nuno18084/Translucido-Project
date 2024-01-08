@@ -26,7 +26,7 @@ const cardsData = [
     icon: consultadoriaIcon,
     title: "Consultoria",
     subtitle: "Plano de ação",
-    text: "Avaliação empática do contexto laboral.",
+    text: "Avaliação do nível de empatia.",
     to: "/solucoes",
     onClick: handleLinkClick1,
   },

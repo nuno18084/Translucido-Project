@@ -14,7 +14,7 @@ const WhoWeAreSection = () => {
     <>
       <div className="who-we-are-main-section">
         <div>
-          <h1>Quem somos</h1>
+          <h1>A Translúcido</h1>
         </div>
         <div>
           <p>

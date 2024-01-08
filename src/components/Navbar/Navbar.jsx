@@ -77,18 +77,6 @@ export default () => {
           Início
         </Link>
         <Link
-          to="/metodologias"
-          className={`menu-item ${
-            isLinkActive("/metodologias") ? "active-link" : ""
-          }`}
-          onClick={() => {
-            closeMenu();
-            handleLinkClick();
-          }}
-        >
-          Metodologias
-        </Link>
-        <Link
           to="/quem-somos"
           className={`menu-item ${
             isLinkActive("/quem-somos") ? "active-link" : ""
@@ -99,6 +87,18 @@ export default () => {
           }}
         >
           Quem somos
+        </Link>
+        <Link
+          to="/metodologias"
+          className={`menu-item ${
+            isLinkActive("/metodologias") ? "active-link" : ""
+          }`}
+          onClick={() => {
+            closeMenu();
+            handleLinkClick();
+          }}
+        >
+          Metodologias
         </Link>
         <Link
           to="/solucoes"

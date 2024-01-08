@@ -10,9 +10,8 @@ const SolutionsSection = () => {
       </div>
       <div className="solutions-p-container">
         <p>
-          Procura pelos melhores serviços de psicologia, sem longas esperas?
-          Agende uma consulta e está feito! Basta reservar um horário,
-          comparecer na hora marcada e receber atendimento de qualidade.
+          Procura por respostas empáticas e promotoras de empatia? Agende
+          connosco! Basta marcar dia e hora e contar-nos a sua necessidade
         </p>
       </div>
       <div>

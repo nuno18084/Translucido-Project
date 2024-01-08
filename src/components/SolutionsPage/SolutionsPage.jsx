@@ -11,12 +11,12 @@ import FormacaoImage from "../../Assets/SolutionsPage/SolutionsAssets/FormacaoIm
 const SolutionsPage = () => {
   const targetElementRef = useRef(null);
 
-  const handleButtonClick = () => {
-    // Scroll to the target element
-    if (targetElementRef.current) {
-      targetElementRef.current.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+  // const handleButtonClick = () => {
+  //   // Scroll to the target element
+  //   if (targetElementRef.current) {
+  //     targetElementRef.current.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // };
 
   return (
     <div className="page-main-container">
@@ -35,11 +35,11 @@ const SolutionsPage = () => {
               className="solutions-cartoon"
             />
           </div>
-          <div>
+          {/* <div>
             <button className="solutions-btn" onClick={handleButtonClick}>
               Ver Soluções
             </button>
-          </div>
+          </div> */}
         </div>
         <div>
           <img src={eclipse2} alt="eclipse" className="solutions-eclipse-2" />
@@ -82,23 +82,16 @@ const SolutionsPage = () => {
             </div>
             <div>
               <p>
-                Atuamos na <strong>gestão e desenvolvimento de projetos</strong>
-                , adicionando empatia à sua solução. Utilizamos uma metodologia
-                combinada das melhores estratégias de impacto.
+                Atuamos na gestão e desenvolvimento de projetos, adicionando
+                empatia à sua solução. Utilizamos uma metodologia combinada das
+                melhores estratégias de impacto.
               </p>
             </div>
             <div>
               <p>
-                Potenciamos o seu negócio! Num processo de{" "}
-                <strong>co-construção</strong> com o cliente, definimos um{" "}
-                <strong>plano de ação</strong>, com medidas e estratégias
-                transversais a toda a organização. Fazendo uso dos riscos
-                psicossociais, do índice de reatividade interpessoal e dos
-                critérios de uma organização saudável, avaliamos potencialidades
-                e fragilidades. Uma intervenção quer ao nível da equipa, como da
-                sua cultura, no propósito de tornar o{" "}
-                <strong>local de trabalho mais empático</strong> para todos os
-                envolvidos.
+                Potenciamos o seu negócio! Num processo de co-construção com o
+                cliente, definimos um plano de ação, com medidas e estratégias
+                de promoção de empatia.
               </p>
             </div>
           </div>
