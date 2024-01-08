@@ -61,6 +61,19 @@
   gap: 5px;
 }
 
+.footer-email-contacts-section,
+.footer-contacts-phone-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17.5px;
+}
+
+.email-icon {
+  color: var(--white-color);
+  height: 15px;
+}
+
 .footer-pages-section {
   display: flex;
   align-items: center;

@@ -4,6 +4,9 @@ import FooterArrow from "../../Assets/FooterAssets/FooterArrow.png";
 import FooterLogo from "../../Assets/LogoAssets/FooterLogo.png";
 import insta from "../../Assets/FooterAssets/Instagram.png";
 import linkedin from "../../Assets/FooterAssets/LinkedIn.png";
+import { FiMail } from "react-icons/fi";
+import { FiPhone } from "react-icons/fi";
+
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -118,29 +121,39 @@ const Footer = () => {
           </Link>
           <p className="footer-address">Lisboa, Portugal</p>
           <div className="footer-mail-number-section">
-            <div>
-              <p>
+            <div className="footer-contacts-phone-section">
+              <div className="email-icon">
+                <FiPhone />
+              </div>
+              <div>
+                <p>
+                  <a
+                    className="contacts"
+                    style={{
+                      textDecoration: "none",
+                      color: "inherit",
+                      fontSize: "12px",
+                    }}
+                    href={`tel:${phoneNumber}`}
+                  >
+                    {phoneNumber}
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div className="footer-email-contacts-section">
+              <div className="email-icon">
+                <FiMail />
+              </div>
+              <div>
                 <a
                   className="contacts"
-                  style={{
-                    textDecoration: "none",
-                    color: "inherit",
-                    fontSize: "12px",
-                  }}
-                  href={`tel:${phoneNumber}`}
+                  href="mailto:geral@translucido.pt?subject=Feedback%20sobre%20a%20Translúcido!&body=Olá!%20Gostamos%20muito%20dos%20nossos%20clientes,%20por%20isso%20temos%20todo%20o%20gosto%20em%20receber%20sugestões%20e%20feedback.%20Obrigado!"
+                  style={{ textDecoration: "none", fontSize: "12px" }}
                 >
-                  t. {phoneNumber}
+                  <p style={{ fontSize: "12px" }}>geral@translucido.pt</p>
                 </a>
-              </p>
-            </div>
-            <div>
-              <a
-                className="contacts"
-                href="mailto:geral@translucido.pt?subject=Feedback%20sobre%20a%20Translúcido!&body=Olá!%20Gostamos%20muito%20dos%20nossos%20clientes,%20por%20isso%20temos%20todo%20o%20gosto%20em%20receber%20sugestões%20e%20feedback.%20Obrigado!"
-                style={{ textDecoration: "none", fontSize: "12px" }}
-              >
-                <p style={{ fontSize: "12px" }}>e. geral@translucido.pt</p>
-              </a>
+              </div>
             </div>
           </div>
         </div>
