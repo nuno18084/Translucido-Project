@@ -113,20 +113,27 @@ const SolutionsPage = () => {
           <div>
             <div>
               <p>
-                <strong>12 horas de formação</strong> presencial ou à distância
-                e <strong>6 horas de plano de treino especializado</strong>,
-                para promover o insight e capacitar os formandos como agentes
+                12 horas de formação presencial ou à distância e 6 horas de
+                plano de treino especializado, para:
+              </p>
+            </div>
+            <div>
+              <p>
+                Promover o insight <br /> Capacitar os formandos como agentes
                 ativos.
               </p>
             </div>
             <div>
               <p>
-                Destinada a <strong>toda e qualquer pessoa</strong>, esta
-                formação capacita para o{" "}
-                <strong>uso da capacidade empática</strong>. No final será capaz
-                de reconhecer o processo neuropsicológico da empatia, conhecer
-                estratégias de comunicação empática e de desenvolver e gerir um
-                projeto empático.
+                Destinada a toda e qualquer pessoa, esta formação capacita para
+                o uso da capacidade empática. No final será capaz de:
+              </p>
+            </div>
+            <div>
+              <p>
+                Reconhecer o processo neuropsicológico da empatia <br />{" "}
+                Conhecer estratégias de comunicação empática <br /> Desenvolver
+                e gerir um projeto empático.
               </p>
             </div>
             <div>
