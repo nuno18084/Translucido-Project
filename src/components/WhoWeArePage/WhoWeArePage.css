@@ -64,16 +64,16 @@ body {
 }
 
 .linkedin-who {
-  width: 20px;
+  width: 23px;
 }
 
 .who-name-linkedin {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   flex-direction: row;
   gap: 10px;
-  padding-left: 3%;
+  padding-left: 5%;
   transform: translateY(-120%);
   width: fit-content;
   height: auto;
@@ -341,14 +341,15 @@ body {
     margin-bottom: -80px;
   }
   .linkedin-who {
-    width: 22px;
+    width: 30px;
   }
   .who-name-linkedin {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    padding-left: 10px;
+    padding-left: 20px;
+    gap: 15px;
   }
   .who-first-container {
     margin-bottom: 0;
