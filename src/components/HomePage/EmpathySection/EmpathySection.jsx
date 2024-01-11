@@ -15,11 +15,11 @@ const EmpathyMap = ({ data }) => {
             sizes={20}
             style={
               index === data.length - 1
-                ? { width: "25%", height: "48%" }
+                ? { width: "15%", height: "35%" }
                 : index === data.length - 2
-                ? { width: "40%" }
+                ? { width: "25%" }
                 : index === data.length - 3
-                ? { width: "40%" }
+                ? { width: "25%" }
                 : null
             }
           />

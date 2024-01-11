@@ -138,7 +138,7 @@ const SolutionsPage = () => {
             </div>
             <div>
               <p>
-                O treino, enquanto vi para o desenvolvimento da competência
+                O treino, enquanto via para o desenvolvimento da competência
                 empática, é realizado como parte integrante da aprendizagem.
               </p>
             </div>
