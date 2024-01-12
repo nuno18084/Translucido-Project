@@ -11,7 +11,7 @@ const SolutionsSection = () => {
       <div className="solutions-p-container">
         <p>
           Procura por respostas empáticas e promotoras de empatia? Agende
-          connosco! Basta marcar dia e hora e contar-nos a sua necessidade
+          connosco! Basta marcar dia e hora e contar-nos a sua necessidade.
         </p>
       </div>
       <div>

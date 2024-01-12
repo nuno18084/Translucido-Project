@@ -126,7 +126,7 @@ const WhoWeArePage = () => {
         </div>
         <div>
           <h2 className="who-third-container-h2">
-            Profissionalmente, crescida na área social. Pessoalmente, em
+            Profissionalmente, crescidas na área social. Pessoalmente, em
             movimentos de promoção do trabalho em equipa, do respeito pelo outro
             e pelo ambiente.
           </h2>
