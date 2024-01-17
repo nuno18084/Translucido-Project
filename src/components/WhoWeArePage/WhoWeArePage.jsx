@@ -145,33 +145,6 @@ const WhoWeArePage = () => {
         </div>
       </div>
 
-      {/* <div className="who-forth-container">
-        <div className="who-forth-container-p">
-          <div>
-            <p>
-              Percebemos que se a criatividade e inovação eram importantíssimas
-              na afirmação de intervenções, os resultados positivos dependem da
-              motivação constante. É a conexão entre as pessoas que faz os
-              projetos avançarem, que provoca mudanças desejáveis. A criação de
-              dinâmicas de relação e compreensão traz impacto na estabilidade
-              dos recursos humanos, diminuição da rotatividade, na diminuição de
-              conflitos e no surgimento de novos projetos, porque a equipa deixa
-              de &quot;apagar fogos&quot; e sente-se mais competente para
-              crescer.{" "}
-            </p>
-          </div>
-
-          <div>
-            <p>
-              Estamos todos interligados quando trabalhamos na mesma equipa.
-            </p>
-          </div>
-        </div>
-        <div>
-          <img src={Eclipse} alt="eclipse" className="who-eclipse" />
-        </div>
-      </div> */}
-
       <div className="who-fifth-container">
         <div>
           <h1>Os Nossos Valores</h1>
