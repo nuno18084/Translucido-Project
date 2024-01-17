@@ -82,16 +82,17 @@ const SolutionsPage = () => {
             </div>
             <div>
               <p>
-                Atuamos na gestão e desenvolvimento de projetos, adicionando
-                empatia à sua solução. Utilizamos uma metodologia combinada das
-                melhores estratégias de impacto.
+                Atuamos na <strong>gestão e desenvolvimento de projetos</strong>
+                , adicionando empatia à sua solução. Utilizamos uma metodologia
+                combinada das melhores estratégias de impacto.
               </p>
             </div>
             <div>
               <p>
-                Potenciamos o seu negócio! Num processo de co-construção com o
-                cliente, definimos um plano de ação, com medidas e estratégias
-                de promoção de empatia.
+                Potenciamos o seu negócio! Num processo de 
+                <strong>co-construção</strong> com o cliente, definimos um 
+                <strong>plano de ação</strong>, com medidas e estratégias de
+                promoção de empatia.
               </p>
             </div>
           </div>
@@ -113,8 +114,9 @@ const SolutionsPage = () => {
           <div>
             <div>
               <p>
-                12 horas de formação presencial ou à distância e 6 horas de
-                plano de treino especializado, para:
+                12 horas de <strong>formação</strong> presencial ou à distância
+                e 6 horas de plano de <strong>treino especializado</strong>,
+                para:
               </p>
             </div>
             <div>
@@ -131,9 +133,10 @@ const SolutionsPage = () => {
             </div>
             <div>
               <p>
-                Reconhecer o processo neuropsicológico da empatia <br />{" "}
-                Conhecer estratégias de comunicação empática <br /> Desenvolver
-                e gerir um projeto empático.
+                Reconhecer o <strong>processo neuropsicológico</strong> da
+                empatia <br /> Conhecer estratégias de{" "}
+                <strong>comunicação empática</strong> <br /> Desenvolver e gerir
+                um <strong>projeto empático</strong>.
               </p>
             </div>
             <div>

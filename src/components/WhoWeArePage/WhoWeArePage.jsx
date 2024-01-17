@@ -5,9 +5,9 @@ import Rita from "../../Assets/WhoWeAreAssets/RitaFerreiraPic.png";
 import LinkedIn from "../../Assets/FooterAssets/LinkedIn.png";
 import { Link } from "react-router-dom";
 import TranslucidoPic from "../../Assets/WhoWeAreAssets/WhoWeAreCartoon.png";
-import ArrowMax from "../../Assets/WhoWeAreAssets/WhoWeAreArrow.png";
+// import ArrowMax from "../../Assets/WhoWeAreAssets/WhoWeAreArrow.png";
 import doubleQuotes from "../../Assets/WhoWeAreAssets/DoubleQuotes.png";
-import Eclipse from "../../Assets/WhoWeAreAssets/WhoEllipse.png";
+// import Eclipse from "../../Assets/WhoWeAreAssets/WhoEllipse.png";
 import ListItem from "../../Assets/WhoWeAreAssets/ListItem.png";
 import WordSlider from "./WordSlider/WordSlider";
 import Marquee from "react-fast-marquee";
@@ -24,11 +24,12 @@ const WhoWeArePage = () => {
           </div>
           <div>
             <p>
-              A Translúcido dedica-se exclusivamente à empatia, à sua explicação
-              científica e às suas potencialidades, promovendo relações
-              empáticas, em diferentes ambientes, por meio de treino e
-              consultoria. Visamos capacitar a pessoa nas suas relações
-              interpessoais.
+              Somos uma <strong>equipa de profissionais de psicologia</strong>,
+              orientada para o desenvolvimento da empatia. A Translúcido
+              dedica-se exclusivamente à <strong>capacidade empática</strong>, à
+              sua explicação científica e às suas potencialidades, promovendo
+              relações empáticas, em diferentes ambientes, por meio de treino e
+              consultoria.{" "}
             </p>
           </div>
           <Link to="/metodologias">
@@ -94,16 +95,20 @@ const WhoWeArePage = () => {
           <div className="translucido-p-section">
             <div>
               <p>
-                Somos uma <strong>equipa de profissionais de psicologia</strong>
-                , orientados para o desenvolvimento da empatia. A Translúcido
-                dedica-se exclusivamente à <strong>capacidade empática</strong>,
-                à sua explicação científica e às suas potencialidades,
-                promovendo relações empáticas, em diferentes ambientes, por meio
-                de treino e consultadoria.{" "}
+                <strong>Criatividade e inovação</strong> são fundamentais na
+                afirmação de intervenções, mas resultados positivos dependem da{" "}
+                <strong>motivação</strong> constante. É na{" "}
+                <strong>conexão interpessoal</strong> que o progresso acontece.
+                Equipas com <strong>dinâmicas</strong> relacionais{" "}
+                <strong>compreensivas</strong> promovem a{" "}
+                <strong>estabilidade</strong> a vários níveis, nas organizações,
+                aumentando o sentimento de competência para o{" "}
+                <strong>crescimento</strong>, ao invés de apenas responder a
+                emergências constantes.
               </p>
             </div>
             <div className="arrow-max-section">
-              <img src={ArrowMax} alt="arrow-max" className="arrow-max" />
+              {/* <img src={ArrowMax} alt="arrow-max" className="arrow-max" /> */}
             </div>
           </div>
           <div>
@@ -140,7 +145,7 @@ const WhoWeArePage = () => {
         </div>
       </div>
 
-      <div className="who-forth-container">
+      {/* <div className="who-forth-container">
         <div className="who-forth-container-p">
           <div>
             <p>
@@ -165,7 +170,7 @@ const WhoWeArePage = () => {
         <div>
           <img src={Eclipse} alt="eclipse" className="who-eclipse" />
         </div>
-      </div>
+      </div> */}
 
       <div className="who-fifth-container">
         <div>

@@ -31,31 +31,30 @@ const MethodologiesPage = () => {
         <div className="p-section">
           <div>
             <p>
-              A partir de uma metodologia combinada com dinâmicas de imersão,
-              sociodrama, design thinking, storytelling, permitimos aos
-              formandos desenvolver a competência empática.
+              Translúcido é o que deixa passar a luz, alguém que é erudito,
+              repleto de conhecimento e cultura.
             </p>
           </div>
           <div>
             <p>
-              Com 12 horas de formação presencial e 6 horas de plano de treino
-              especializado, promovemos o insight e capacitamos os formandos
-              para serem agentes ativos, quer por serem capazes de comunicarem
-              empaticamente e diminuir os conflitos interpessoais, quer pelo
-              desenvolvimento de projeto empático.
+              Colocarmo-nos no lugar do outro exige que possamos estar
+              disponíveis para conhecer, para nos deixarmos atravessar pela
+              experiência de uma outra pessoa. Usamos a combinação de 4 das
+              melhores estratégias que permitem{" "}
+              <strong>treinar e promover</strong> o desenvolvimento desta
+              competência:{" "}
+              <strong>
+                imersão, sociodrama, storytelling e design thinking
+              </strong>
+              . Começamos por conhecer o que é <strong>empatia</strong>,
+              passamos a experienciá-la, avançamos para a sua compreensão e
+              finalizamos com a ação.
             </p>
           </div>
           <div>
             <p>
-              O treino enquanto via para o desenvolvimento da competência
-              empática, exige consistência e continuidade para que possa se
-              desenvolver.
-            </p>
-          </div>
-          <div>
-            <p>
-              É ainda produzido um relatório de avaliação empática, dando
-              feedback ao cliente.
+              Na metodologia que propomos tornas-te Translúcido: a pessoa que é
+              leve, erudita e, acima de tudo, empática.
             </p>
           </div>
         </div>
