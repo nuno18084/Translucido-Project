@@ -10,7 +10,7 @@ import { FiPhone } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const phoneNumber = "+351 913 143 178";
+  const phoneNumber = "+351 914 875 910";
 
   const instaHanldeClick = () => {
     window.open("https://www.instagram.com/translucido.pt/", "_blank");
